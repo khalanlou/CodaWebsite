@@ -15,12 +15,21 @@
         <title>
             Coda | This is our website
         </title>
+
+        <style>
+            .responsive {
+              height: auto;
+              max-width: 100%;
+              display: block;
+            }
+        </style>
+
     </head>
-    <body>
+    <body dir="rtl" style="text-align: right;">
         <div id="Main" class="container-fluid">
             <div id="Navbar" class="row">
                 <div id="NavbarRight" class="row col-md-6">
-                    <img id="NavbarRightLogo" class="col-md-4" src="http://s12.picofile.com/file/8398298600/logo.png">
+                    <img id="NavbarRightLogo" class="col-md-4 responsive" style="width: auto; height: auto;" src="http://s12.picofile.com/file/8398298600/logo.png">
                     <h5 id="NavbarRightBlog" class="col-md-4">
                         blog
                     </h5>
@@ -38,11 +47,16 @@
                     <button id="NavbarLeftButton" class="col-md-3">
                         sign
                     </button>
-                    <img id="NavbarLeftHamburgur" class="col-md-3" src="/Dependencies/logo_png.svg">
+                    <img id="NavbarLeftHamburgur" class="col-md-3 responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/200px-Hamburger_icon.svg.png">
                 </div>
             </div>
             <div id="Header">
+                <div id="HeaderRight" style="background-image: url('/Dependencies/Right_Header.svg');">
 
+                </div>
+                <div id="HeaderLeft">
+
+                </div>
             </div>
             <div id="OurDifference">
 
@@ -56,8 +70,8 @@
             <div id="Porfolio">
 
             </div>
-            <div id="Footer">
-
+            <div id="Footer" style="text-align: center; background-image: url('/Dependencies/Back2.svg');">
+                <h6>تمامی حقوق برای کودا محفوظ است</h6>
             </div>
         </div>
     </body>
