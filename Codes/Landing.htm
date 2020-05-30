@@ -2,11 +2,7 @@
 
 <html dir="rtl">
     <head>
-        <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">        
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,57 +18,156 @@
               max-width: 100%;
               display: block;
             }
+
+            .height50{
+                height: 60px;
+            }
+
+            .height25{
+                height: 30px;
+            }
+
+            .height10{
+                height: 20px;
+            }
         </style>
 
     </head>
-    <body dir="rtl" style="text-align: right;">
+    <body>
+
+        <!--JavaScript-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!--JavaScript-->
+        
+        
         <div id="Main" class="container-fluid">
-            <div id="Navbar" class="row">
-                <div id="NavbarRight" class="row col-md-6">
-                    <img id="NavbarRightLogo" class="col-md-4 responsive" style="width: auto; height: auto;" src="http://s12.picofile.com/file/8398298600/logo.png">
-                    <h5 id="NavbarRightBlog" class="col-md-4">
-                        blog
-                    </h5>
-                    <h5 id="NavbarRightContact" class="col-md-4">
-                        contact
-                    </h5>
-                </div>
-                <div id="NavbarLeft" class="row col-md-6">
-                    <h5 id="NavbarLeftCosts" class="col-md-3">
-                        Costs
-                    </h5>
-                    <h5 id="NavbarLeftProjects" class="col-md-3">
-                        ‍‍‍‍porfolio
-                    </h5>
-                    <button id="NavbarLeftButton" class="col-md-3">
-                        sign
-                    </button>
-                    <img id="NavbarLeftHamburgur" class="col-md-3 responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/200px-Hamburger_icon.svg.png">
-                </div>
-            </div>
-            <div id="Header">
-                <div id="HeaderRight" style="background-image: url('/Dependencies/Right_Header.svg');">
+
+
+            <div id="Navbar" class="row height50" style="background-color: aliceblue;">
+
+                <div id="NavbarRight" class="col-md-6 height50" style="background-color:darkorange;">
+
+                    <div id="NavbarRightRow" class="row">
+
+                        <div id="NavbarRightLogo" class="col-md-4 height50" style="background-color:lawngreen;">
+
+                        </div>
+                        <div id="NavbarRightBlog" class="col-md-4 height50" style="background-color:lightblue;">
+
+                        </div>
+                        <div id="NavbarRightContact" class="col-md-4 height50" style="background-color:lightcoral;">
+
+                        </div>
+
+                    </div>
 
                 </div>
-                <div id="HeaderLeft">
+
+                <div id="NavbarLeft" class="col-md-6 height50" style="background-color:darkorchid;">
+
+                    <div id="NavbarRightRow" class="row">
+
+                        <div id="NavbarRightCosts" class="col-md-3 height50" style="background-color:lightgray;">
+
+                        </div>
+                        <div id="NavbarRightProjects" class="col-md-3 height50" style="background-color:lightseagreen;">
+
+                        </div>
+                        <div id="NavbarRightContactSign" class="col-md-3 height50" style="background-color:maroon;">
+
+                        </div>  
+                        <div id="NavbarRightContactHamburger" class="col-md-3 height50" style="background-color:mediumvioletred;">
+
+                        </div>  
+
+                    </div>
 
                 </div>
-            </div>
-            <div id="OurDifference">
 
             </div>
-            <div id="Blog">
+
+
+            <div id="Header" class="row height50" style="background-color: aqua;">
+
+                <div id="HeaderRight" class="col-md-6 height50">
+                    
+                    <div id="HeaderRightRow" class="row">
+  
+                        <div id="HeaderRightTitle" class="col-md-12 height25" style="background-color:mediumvioletred;">
+
+                        </div>
+
+                        <div id="HeaderRightParagraph" class="col-md-12 height25" style="background-color:olive;">
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div id="HeaderLeft" class="col-md-6 height50" style="background-color: dodgerblue;">
+
+                    <div id="HeaderLeftRow" class="row">
+  
+                        <div id="HeaderLeftTitle" class="col-md-12 height10" style="background-color:orangered;">
+
+                        </div>
+
+                        <div id="HeaderLeftInput" class="col-md-12 height10" style="background-color:peru;">
+
+                        </div>
+
+                        <div id="HeaderLeftCaption" class="col-md-12 height10" style="background-color:seagreen;">
+
+                        </div>
+                        
+                    </div>
+
+                </div>
 
             </div>
-            <div id="Team">
+
+
+            <div id="OurDifference" class="row height50" style="background-color: blue;">
+
+                <div id="OurDifferenceTitle" class="col-md-3 height50" style="background-color:floralwhite;">
+
+                </div>
+                <div id="OurDifferenceItem1" class="col-md-3 height50" style="background-color:greenyellow;">
+
+                </div>
+                <div id="OurDifferenceItem2" class="col-md-3 height50" style="background-color:hotpink;">
+
+                </div>
+                <div id="OurDifferenceItem3" class="col-md-3 height50" style="background-color:indigo;">
+
+                </div>
 
             </div>
-            <div id="Porfolio">
+
+
+            <div id="Blog" class="row height50" style="background-color:brown;">
 
             </div>
-            <div id="Footer" style="text-align: center; background-image: url('/Dependencies/Back2.svg');">
-                <h6>تمامی حقوق برای کودا محفوظ است</h6>
+
+
+            <div id="Team" class="row height50" style="background-color:coral;">
+
             </div>
+
+
+            <div id="Porfolio" class="row height50" style="background-color:darkgoldenrod;">
+
+            </div>
+
+
+            <div id="Footer" class="row height50" style="background-color:darkolivegreen;">
+
+            </div>
+
+
         </div>
     </body>
 </html>
