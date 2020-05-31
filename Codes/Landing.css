@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Yekan-N';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff') format('woff'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Yekan-B';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.woff') format('woff'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.responsive {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.height50{
+    height: 60px;
+}
+
+.height25{
+    height: 30px;
+}
+
+.height10{
+    height: 20px;
+}
+
+.button5 {
+    border-radius: 25px;
+    background-color:orangered;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1;
+  }
+.body{
+  background-image: url("http://s13.picofile.com/file/8398770118/Right_header.png");
+  background-color: #cccccc;
+}
+h1{
+    text-align: right;
+}
+
+h2{
+    text-align: right;
+}
+
+h3{
+    text-align: right;
+}
+
+h4{
+    text-align: right;
+}
+
+h5{
+    text-align: right;
+}
+
+h6{
+    text-align: right;
+}
