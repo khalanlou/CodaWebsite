@@ -59,16 +59,16 @@
   }
 
   .bg {
-    /* The image used */
-    background-image: url('http://s12.picofile.com/file/8398771068/Right_header_1_.png');
-  
-    /* Full height */
-    height: 80%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
+    background-image: url('/git/Dependencies/Landing\ -\ 768.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+  }
+
+   #blog {
+    /* The image used */
+    background-image: url('http://s12.picofile.com/file/8398897326/posts.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
 h1{
