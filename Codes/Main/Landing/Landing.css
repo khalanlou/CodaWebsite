@@ -1,3 +1,5 @@
+/* Font-face configuration */
+
 @font-face {
     font-family: 'Yekan-N';
     src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot');
@@ -16,22 +18,14 @@
     font-weight: bold;
 }
 
+
+
+/* Font-face configuration */
+
 .responsive {
   height: auto;
   max-width: 100%;
   display: block;
-}
-
-.height50{
-    height: 60px;
-}
-
-.height25{
-    height: 30px;
-}
-
-.height10{
-    height: 20px;
 }
 
 .button5 {
@@ -53,13 +47,8 @@
     border-color: rgb(39, 204, 121);
 }
 
-::placeholder { 
-    color: white;
-    opacity: 1;
-  }
-
   .bg {
-    background-image: url('/git/Dependencies/Landing\ -\ 768.png');
+    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Back/Landing\ -\ 768.png');
     background-repeat: no-repeat;
     background-size: 100%;
   }
