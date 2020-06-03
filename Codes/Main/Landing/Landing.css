@@ -18,6 +18,14 @@
     font-weight: bold;
 }
 
+/* Main */
+
+#Main{
+    font-family: Yekan-N;
+    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Back/Landing\ -\ 768.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 
 /* Navbar */
@@ -25,54 +33,65 @@
 #Navbar {
     text-align: center;
     background-color: rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    height: 60px;
 }
 
 #Navbar_Right{
     color: white;
-    margin-top: 10px;
 }
 
 #Navbar_Right_Logo_IMG{
     margin: 10px;
     width: 100%;
+    text-align: center;
 }
 
-#Navbar_Right_Blog_IMG{
-    margin: 20px;
-}
-
-#Navbar_Right_Contact_IMG{
+#Navbar_Right_Blog_H6{
     margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+#Navbar_Right_Contact_H6{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
 }
 
 #Navbar_Left{
-    margin-top: 10px;
+    color: orangered;
 }
 
 #Navbar_Left_Costs_H6{
     margin: 20px 0px 20px 0px;
+    text-align: center;
 }
 
 #Navbar_Left_Projects_H6{
     margin: 20px 0px 20px 0px;
+    text-align: center;
 }
 
 #Navbar_Left_Contact_Sign_Button{
-    margin: 8px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     height: 45px;
     width: 140px;
 }
 
 #Navbar_Left_Contact_Sign_Button_Text_H6{
-    margin: 5px 0px 3px 0px;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
 }
 
 #Navbar_Left_Contact_Sign_Button_Icon_IMG{
-    margin: -1px -25px 3px 0px;
+    margin: 2px -25px 3px 0px;
 }
 
 #Navbar_Left_Contact_Hamburger_IMG{
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+#Navbar_Left_Contact_Sign_Button{
+    
 }
 
 
@@ -385,39 +404,35 @@
 
 
 
+/*-----------------------------------------------------------*/
 
-
-.button5 {
+.mainbutton {
     border-radius: 25px;
-    background-color:orangered;
-    border-color: orangered;
 }
 
-.button1 {
-    border-radius: 25px;
+.orangebutton{
+    background-color:orangered;
+    border-color: orangered;
+    color: white;
+}
+
+.whitebutton {
     background-color:white;
     border-color: white;
     color: black;
 }
 
-.button50 {
-    border-radius: 50px;
+.greenbutton {
     background-color:rgb(39, 204, 121);
     border-color: rgb(39, 204, 121);
+    color: white;
+    font-family: Yekan-N;
+    width: 100%;
 }
 
-  .bg {
-    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Back/Landing\ -\ 768.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
 
-   #blog {
-    /* The image used */
-    background-image: url('http://s12.picofile.com/file/8398897326/posts.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
+
+/* H's Right-Align */
 
 h1{
     text-align: right;
