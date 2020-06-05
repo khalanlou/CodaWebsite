@@ -18,6 +18,10 @@
     font-weight: bold;
 }
 
+a{
+    color: black;
+}
+
 /* Main */
 
 #Main{
@@ -34,7 +38,7 @@
     text-align: center;
     background-color: rgba(255, 255, 255, 0);
     margin-top: 10px;
-    height: 60px;
+    height: 70px;
     width: 1366px;
 }
 
@@ -100,8 +104,7 @@
 /* Header */
 
 #Header{
-    height: 570px;
-    margin-top: 20px;
+    padding-bottom: 200px;
     background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Header/RightHeader.png');
     background-repeat: no-repeat;
     background-size: 50%;
@@ -109,12 +112,13 @@
 }
 
 #Header_Right{
-    height: 570px;
+    
 }
 
 #Header_Right_Row{
     text-align: center;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 #Header_Right_Title{
@@ -138,16 +142,16 @@
 }
 
 #Header_Left{
-    height: 570px;
+    
 }
 
 #Header_Left_Row{
-    margin: 150px 0px 100px 0px;
+    margin: 150px 0px 0px 0px;
     text-align: center;
 }
 
 #Header_Left_Title{
-    height: 70px;
+   
 }
 
 #Header_Left_Title_H1{
@@ -201,55 +205,73 @@
 /* Our Differences */
 
 #OurDifference{
-    height: 200px;
-    margin: 0px 100px 70px 50px;
+    margin-top: 120px;
+
 }
 
 #OurDifference_Item_3_Caption{
-    margin: 20px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #OurDifference_Item_3_Caption_Title_H1{
-    margin-top: 45px;
+    text-align: center;
 }
 
 #OurDifference_Item_3_Caption_Number_H1{
-    color:orangered;
+    text-align: center;
+    color: orangered;
     font-size: 150px;
+    margin-top: -40px;
     margin-right: -65px;
 }
 
 #OurDifference_Item_2_Caption{
-    margin: 20px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #OurDifference_Item_2_Caption_Title_H1{
-    margin-top: 45px;
+    text-align: center;
 }
 
 #OurDifference_Item_2_Caption_Number_H1{
-    color:orangered;
+    text-align: center;
+    color: orangered;
     font-size: 150px;
-    margin-right: -67px;
+    margin-top: -40px;
+    margin-right: -65px;
 }
 
 #OurDifference_Item_1_Caption{
-    margin: 20px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #OurDifference_Item_1_Caption_Title_H1{
-    margin-top: 45px;
+    text-align: center;
 }
 
 #OurDifference_Item_1_Caption_Number_H1{
-    color:orangered;
+    text-align: center;
+    color: orangered;
     font-size: 150px;
-    margin-right: -77px;
+    margin-top: -40px;
+    margin-right: -65px;
 }
 
 #OurDifference_Title_H1{
-    font-size: 50px;
-    margin: 50px 20px 20px 20px;
+    font-size: 50px;    
+    text-align: left;
+}
+
+#OurDifference_Title2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#OurDifference_Title2_H1{
+    text-align: center;
 }
 
 
@@ -257,8 +279,13 @@
 /* Blog */
 
 #Blog{
-    height: 600px;
-    margin: 70px 100px 50px 100px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Posts/BottomBack.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: 70px 0px 50px 0px;
 }
 
 #Blog_Slider_Content{
@@ -281,7 +308,7 @@
 }
 
 #Blog_Slider_Content_Inner_ItemActive_Caption_BUTTON{
-    margin: 0px 0px 120px 620px;
+    margin: 0px 0px 100px 620px;
     height: 45px;
     width: 140px;
 }
@@ -330,8 +357,15 @@
 /* Team */
 
 #Team{
-    height: 400px;
-    margin: 150px 100px 0px 100px;
+    margin: 150px 50px 0px 50px;
+}
+
+#Team_Slider_Content{
+    
+}
+
+#Team_Slider_Content_Social{
+    width: 50px;
 }
 
 #Team_Slider_Content_Social_Form_BUTTON1{
@@ -358,6 +392,10 @@
     margin: 5px;
 }
 
+#Team_Slider_Content_User{
+    width: 100px;
+}
+
 #Team_Slider_Content_User_Capion_IMG{
     text-align: center;
     margin: 10px 60px 0px 60px;
@@ -382,6 +420,15 @@
     margin-top: 90px;
 }
 
+#Team_Slider_Content_Caption{
+    width: 500px;
+    text-align: center;
+    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Teams/Qut.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
 
 
 /* Portfolio */
@@ -401,11 +448,12 @@
 /* Footer */
 
 #Footer{
-    background-color:darkolivegreen;
+    margin-top: 50px;
 }
 
 #Footer_Content_H5{
     margin: 30px 0px 30px 0px;
+    text-align: center; 
 }
 
 
