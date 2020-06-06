@@ -439,9 +439,8 @@ a{
 
 /* Portfolio */
 
-#Portfolio{
+#Porfolio{
     margin-top: 100px;
-    margin-bottom: 200px;
 }
 
 #Portfolio_Content_H1{
@@ -454,7 +453,7 @@ a{
 /* Footer */
 
 #Footer{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #Footer_Content_H5{
