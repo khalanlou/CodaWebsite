@@ -26,7 +26,7 @@ a{
 
 #Main{
     font-family: Yekan-N;
-    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Back/Landing\ -\ 768.png');
+    background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -105,7 +105,7 @@ a{
 
 #Header{
     padding-bottom: 200px;
-    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Header/RightHeader.png');
+    background-image: url('Dependencies/Images/Header/RightHeader.png');
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
@@ -185,7 +185,7 @@ a{
     width: 50px;
     margin-right: -55px;
     margin-top: 5px;
-    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Navbar/Button/ButtonIcon.png');
+    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 40%; 
@@ -281,7 +281,7 @@ a{
 #Blog{
     padding-bottom: 150px;
     padding-top: 150px;
-    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Posts/BottomBack.png');
+    background-image: url('Dependencies/Images/Posts/BottomBack.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -425,7 +425,7 @@ a{
 #Team_Slider_Content_Caption{
     width: 500px;
     text-align: center;
-    background-image: url('/home/khalanlou/Documents/CODA/Dependencies/Pictures/Teams/Qut.png');
+    background-image: url('Dependencies/Images/Teams/Qut.png');
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center;
