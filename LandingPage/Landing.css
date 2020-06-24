@@ -104,10 +104,11 @@ a{
 
 #Navbar_Right{
     color: white;
+    margin-right: -20px;
 }
 
 #Navbar_Right_Logo_IMG{
-    margin: 10px;
+    margin: 10px 0px 10px 10px;
     width: 70px;
     text-align: center;
 }
@@ -169,25 +170,20 @@ a{
 
 #Header_Right{
     z-index: 0;
-<<<<<<< HEAD
     position: relative;
-=======
-    position: relative ;
->>>>>>> afaa8aa99aa8642915e49e222cd7cc7680d35faa
     top: 0;
     right: 0;
     padding-bottom: 300px;
     background-image: url('Dependencies/Images/Header/RightHeader.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: right;
-    margin-top: -100px;
-    margin-right: -20px;
+    background-size: 93%;
+    margin-top: -60px;
+    margin-right: -70px;
 }
 
 #Header_Right_Row{
-    margin-right: 20px;
-    margin-top: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 
 #Header_Right_Title{
@@ -217,7 +213,7 @@ a{
 }
 
 #Header_Left_Row{
-    margin: 250px 0px 0px 0px;
+    margin: 220px 0px 0px 0px;
     text-align: center;
 }
 
@@ -244,7 +240,7 @@ a{
     background-color: rgb(255, 236, 230);
     border-color: chocolate;
     height: 60px;
-    width: 300px;
+    width: 290px;
     border-radius: 40px;
 }
 
@@ -544,6 +540,11 @@ a{
     background-color:orangered;
     border-color: orangered;
     color: white;
+}
+
+.orangebutton:hover{
+    background-color: rgb(187, 50, 1);
+    border-color: rgb(187, 50, 1);
 }
 
 .whitebutton {

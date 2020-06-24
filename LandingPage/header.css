@@ -1,0 +1,331 @@
+/* Font-face configuration */
+@font-face {
+    font-family: 'Yekan-N';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff') format('woff'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Yekan-B';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.woff') format('woff'),
+        url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+/* Font-face configuration */
+
+
+/****************** Main ******************/
+#main{
+    font-family: Yekan-N;
+    background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/****************** Main ******************/
+
+
+/**************** Header1 ****************/
+#header{
+    
+}
+
+#header-right{
+    background-image: url('Dependencies/Images/Header/RightHeader.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    margin-top: -70px;
+    z-index: 0;
+}
+
+#header-right-title{
+    margin-top: 170px;
+    margin-right: -120px;
+}
+
+#header-right-title-h1{
+    font-size: 48px;
+    line-height: 55px;
+    color: white;
+}
+
+#header-right-caption{
+    margin-top: 15px;
+    margin-right: -90px;
+}
+
+#header-right-caption-h2{
+    font-size: 27px;
+    line-height: 40px;
+    color: white;
+}
+
+#header-left{
+    margin-top: -70px;
+}
+
+#header-left-title{
+    margin-bottom: 20px;
+}
+
+#header-left-title-h3{
+    font-size: 60px;
+    color: orangered;
+}
+
+#header-left-sign{
+    
+}
+
+#header-left-sign-form-input{
+    width: 310px;
+    height: 60px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: orangered;
+    background-color: rgb(255, 237, 231);
+}
+
+#header-left-sign-form-button{
+    display: inline;
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    border-color: orangered;
+    border-width: 1px;
+    background-color: orangered;
+    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 35%;
+    margin: 6px -55px 0 0;
+}
+
+#header-left-caption{
+    margin-top: 10px;
+}
+
+#header-left-caption-h4{
+    font-size: 13px;
+    color: orangered;
+}
+
+#Header_Left_Input_Form_NumberInput{
+    background-color: rgb(255, 236, 230);
+    border-color: orangered;
+    height: 60px;
+    width: 290px;
+    border-radius: 40px;
+}
+
+#Header_Left_Input_Form_ButtonInput{
+    border-color: orangered;
+    font-family: Yekan-B;
+    height: 50px;
+    width: 50px;
+    margin-right: -55px;
+    margin-top: 5px;
+    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 40%; 
+}
+
+#Header_Left_Caption{
+    height: 100px;
+}
+
+#Header_Left_Caption_H6{
+    text-align: center;
+    font-size: 13px;
+}
+/**************** Header1 ****************/
+
+/**************** Header2 ****************/
+#header-right_{
+    background-image: url('Dependencies/Images/Header/RightHeader.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    margin-bottom: -350px;
+}
+
+
+#header-right-title_{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+#header-right-title-h1_{
+    font-size: 48px;
+    line-height: 55px;
+    color: white;
+}
+
+#header-left-sign_{
+    
+}
+
+#header-left-sign-form-input_{
+    width: 310px;
+    height: 60px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: orangered;
+    background-color: rgb(255, 237, 231);
+}
+
+#header-left-sign-form-button_{
+    display: inline;
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    border-color: orangered;
+    border-width: 1px;
+    background-color: orangered;
+    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 35%;
+    margin: 6px -55px 0 0;
+}
+
+#header-left-caption_{
+    margin-top: 10px;
+}
+
+#header-left-caption-h4_{
+    font-size: 13px;
+    color: white;
+}
+/**************** Header2 ****************/
+
+/**************** navbar ****************/
+#navbar{
+    height: 70px;
+    z-index: 1;
+}
+
+#navbar-right{
+    color: white;
+}
+
+#navbar-right-row{
+    margin-top: 10px;
+}
+
+#navbar-right-logo{
+    
+}
+
+#navbar-right-logo-img{
+    width: 88px;
+}
+
+#navbar-right-blog{
+    
+}
+
+#navbar-right-blog-h6{
+    text-align: center;
+}
+
+#navbar-right-contact{
+    
+}
+
+#navbar-right-contact-h6{
+    text-align: center;
+}
+
+#navbar-left{
+
+}
+
+#nevbar-left-row{
+    margin-top: 18px;
+}
+
+#navbar-left-cost{
+
+}
+
+#navbar-left-cost-h6{
+    text-align: center;
+}
+
+#navbar-left-portfolio{
+
+}
+
+#navbar-left-portfolio-h6{
+    text-align: center;
+}
+
+#navbar-left-sign{
+    text-align: center;
+}
+
+#navbar-left-sign-button{
+    width: 110px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+#navbar-left-sign-button-h6{
+    font-size: 11px;
+    font-family: Yekan-B;
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+#navbar-left-sign-button-img{
+    width: 12px;
+    margin: 3px 4px 0 0;
+}
+
+#navbar-left-hamburger{
+    
+}
+
+#navbar-left-hamburger-img{
+    width: 25px;
+    float: left;
+}
+/**************** navbar ****************/
+
+
+
+
+/*************** H's Right-Align ****************/
+h1{
+    text-align: right;
+}
+
+h2{
+    text-align: right;
+}
+
+h3{
+    text-align: right;
+}
+
+h4{
+    text-align: right;
+}
+
+h5{
+    text-align: right;
+}
+
+h6{
+    text-align: right;
+}
+/*************** H's Right-Align ****************/
