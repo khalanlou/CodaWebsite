@@ -108,11 +108,7 @@ a{
 }
 
 #Navbar_Right_Logo_IMG{
-<<<<<<< HEAD
-    margin: 10px 0px 10px 10px;
-=======
     margin: 10px 10px 10px 15px;
->>>>>>> 83c14f12eef59bd705ceefb158b246fb2cb9c126
     width: 70px;
     text-align: center;
 }
@@ -251,7 +247,7 @@ a{
 
 #Header_Left_Input_Form_ButtonInput{
     border-color: orangered;
-    margin: 5px;
+    margin: 5px;        
     font-family: Yekan-B;
     height: 50px;
     width: 50px;

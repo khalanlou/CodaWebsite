@@ -148,11 +148,13 @@
 
 /**************** Header2 ****************/
 #header-right_{
-    background-image: url('Dependencies/Images/Header/RightHeader.png');
+    background-image: url('Dependencies/Images/Header/mobile.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 550px;
     height: 600px;
     margin-bottom: -350px;
+    background-position: center;
+    z-index: 0;
 }
 
 
@@ -164,7 +166,7 @@
 #header-right-title-h1_{
     font-size: 48px;
     line-height: 55px;
-    color: white;
+    color: orangered;
 }
 
 #header-left-sign_{
@@ -176,8 +178,8 @@
     height: 60px;
     border-radius: 50px;
     border-width: 1px;
-    border-color: orangered;
-    background-color: rgb(255, 237, 231);
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.082);
 }
 
 #header-left-sign-form-button_{
@@ -185,9 +187,9 @@
     width: 49px;
     height: 49px;
     border-radius: 50px;
-    border-color: orangered;
+    border-color: black;
     border-width: 1px;
-    background-color: orangered;
+    background-color: black;
     background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
@@ -201,7 +203,7 @@
 
 #header-left-caption-h4_{
     font-size: 13px;
-    color: white;
+    color: black;
 }
 /**************** Header2 ****************/
 
