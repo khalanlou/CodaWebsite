@@ -107,7 +107,7 @@ a{
 }
 
 #Navbar_Right_Logo_IMG{
-    margin: 10px;
+    margin: 10px 10px 10px 15px;
     width: 70px;
     text-align: center;
 }
@@ -120,6 +120,7 @@ a{
 #Navbar_Right_Contact_H6{
     margin: 20px 0px 20px 0px;
     text-align: center;
+    color: white;
 }
 
 #Navbar_Left{
@@ -127,17 +128,17 @@ a{
 }
 
 #Navbar_Left_Costs_H6{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 0px;
     text-align: center;
 }
 
 #Navbar_Left_Projects_H6{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 5px;
     text-align: center;
 }
 
 #Navbar_Left_Contact_Sign_Button{
-    margin: 10px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     height: 45px;
     width: 135px;
 }
@@ -152,7 +153,7 @@ a{
 }
 
 #Navbar_Left_Contact_Hamburger_IMG{
-    margin: 20px 0px 20px 0px;
+    margin: 10px 17px 20px -5px;
 }
 
 #Navbar_Left_Contact_Sign_Button{
@@ -169,11 +170,7 @@ a{
 
 #Header_Right{
     z-index: 0;
-<<<<<<< HEAD
     position: relative;
-=======
-    position: relative ;
->>>>>>> afaa8aa99aa8642915e49e222cd7cc7680d35faa
     top: 0;
     right: 0;
     padding-bottom: 300px;
