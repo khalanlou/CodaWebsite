@@ -97,7 +97,7 @@
                 <div id="navbar-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                     <div class="modal-dialog d-flex justify-content-center" role="document">
                         <div id="navbar-modal-content" class="modal-content">
-                            <button type="button" class="btn close col-2" data-dismiss="modal" aria-label="Close" style="margin-top: 10px;margin-bottom: auto;">
+                            <button id="navbar-modal-close" type="button" class="btn close col-2" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                             <div id="navbar-modal-title" class="row d-flex justify-content-center">
@@ -186,7 +186,7 @@
 
             <!--hamburger menu-->
             <div id="side-nav" class="sidenav">
-                <button id="side-nav-close" type="button" class="btn close col-1" aria-label="Close" style="margin: -30px 20px 0 0;" onclick="closeNav()">
+                <button id="side-nav-close" type="button" class="btn close col-1" aria-label="Close" onclick="closeNav()">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 <div id="side-nav-logo" class="col-12 d-flex justify-content-center align-self-center">
@@ -194,13 +194,13 @@
                 </div>
                 <!--for large screens-->
                 <div id="side-nav-1" class="row d-none d-lg-block justify-content-center">
-                    <h1 class="col-12 d-flex justify-content-center align-self-center" style="font-size: 46px; margin-top: 35px;">
+                    <h1 id="side-nav-1-title" class="col-12 d-flex justify-content-center align-self-center">
                         <span style="color: rgb(47, 0, 0);">به</span> 
                         <span style="color: rgb(138, 0, 0);">وقت</span>  
                         <span style="color: red;">تغییر</span>
                         <span style="color: black;">!</span>
                     </h1>
-                    <h6 id="side-nav-1-caption" class="col-9 d-flex justify-content-center align-self-center" style="margin: 5px 55px 0 20px; line-height: 22px;">
+                    <h6 id="side-nav-1-caption" class="col-9 d-flex justify-content-center align-self-center">
                         امروز تقریبا هر کسب و کاری که میشناسیم میتونه برای خودش یه بستر آنلاین داشته باشه. مثل سایت یا اپلیکیشن.<br>
                         اما مهم اینه که کار رو دست کی میسپرید. ما اینجاییم تا بهترین تجربه ممکن رو براتون رقم بزنیم. مرتبط بشید!
                     </h6>
@@ -213,7 +213,7 @@
                 <!--for large screens-->
 
                 <!--for small screens-->
-                <div id="side-nav-2" class="row d-lg-none d-flex justify-content-center" style="margin: 40px 15px 0 15px;">
+                <div id="side-nav-2" class="row d-lg-none d-flex justify-content-center">
                     <a href="../BlogPage/Blog.htm" style="text-decoration: none; color: black;">
                         <button id="side-nav-1-social-button1" class="btn nav-item">بلاگ</button>
                     </a>

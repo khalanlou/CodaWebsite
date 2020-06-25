@@ -301,6 +301,11 @@
     backdrop-filter: blur(4px);
 }
 
+#navbar-modal-close{
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
 #navbar-modal-content{
     width: 430px;
     height: 290px;
@@ -402,8 +407,26 @@
 /**************** navbar-modal ****************/
 
 /**************** hamburger-menu ****************/
+#side-nav-close{
+    margin: -30px 20px 0 0;
+}
+
+#side-nav-1-title{
+    font-size: 46px;
+    margin-top: 35px;
+}
+
+#side-nav-1-caption{
+    margin: 5px 55px 0 20px;
+    line-height: 22px;
+}
+
 #side-nav-1-social{
     margin-top: 60px;
+}
+
+#side-nav-2{
+    margin: 40px 15px 0 15px;
 }
 
 .social-icon{
