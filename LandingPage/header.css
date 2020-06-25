@@ -20,11 +20,26 @@
 
 
 /****************** Main ******************/
+#Main{
+    transition: background-color .5s;
+    transition: margin-left .5s;
+}
+
 #main{
     font-family: Yekan-N;
     background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    width: 50%px;
 }
 /****************** Main ******************/
 
@@ -113,36 +128,6 @@
 #header-left-caption-h4{
     font-size: 13px;
     color: orangered;
-}
-
-#Header_Left_Input_Form_NumberInput{
-    background-color: rgb(255, 236, 230);
-    border-color: orangered;
-    height: 60px;
-    width: 290px;
-    border-radius: 40px;
-}
-
-#Header_Left_Input_Form_ButtonInput{
-    border-color: orangered;
-    font-family: Yekan-B;
-    height: 50px;
-    width: 50px;
-    margin-right: -55px;
-    margin-top: 5px;
-    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: 40%; 
-}
-
-#Header_Left_Caption{
-    height: 100px;
-}
-
-#Header_Left_Caption_H6{
-    text-align: center;
-    font-size: 13px;
 }
 /**************** Header1 ****************/
 
@@ -303,8 +288,136 @@
 }
 /**************** navbar ****************/
 
+/**************** navbar-modal ****************/
+#navbar-modal{
+    backdrop-filter: blur(4px);
+}
 
+#navbar-modal-content{
+    width: 430px;
+    height: 290px;
+    border-radius: 25px;
+    margin-top: 170px;
+}
 
+#navbar-modal-title{
+    margin-bottom: 30px;
+    margin-top: -5px;
+}
+
+#navbar-modal-title-h3{
+    font-size: 30px;
+    color: black;
+}
+
+#navbar-modal-caption-h4{
+    font-size: 12px;
+    color: black;
+}
+
+#navbar-modal-caption{
+    margin-top: 15px;
+}
+
+#navbar-modal-sign{
+    
+}
+
+#navbar-modal-form-input{
+    width: 310px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: orangered;
+    background-color: rgba(255, 167, 136, 0.137);
+}
+
+#navbar-modal-form-button{
+    display: inline;
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    border-color: orangered;
+    border-width: 1px;
+    background-color: orangered;
+    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 35%;
+    margin: 4px -47px 0 0;
+}
+
+#navbar-modal-social{
+    margin-top: 10px;
+}
+
+#navbar-modal-social-1{
+    display: inline;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color:rgb(39, 204, 121);
+    border-color: rgb(39, 204, 121);
+    margin: 2px;
+}
+
+#navbar-modal-social-2{
+    display: inline;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color:rgb(39, 204, 121);
+    border-color: rgb(39, 204, 121);
+    margin: 2px;
+}
+
+#navbar-modal-social-3{
+    display: inline;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color:rgb(39, 204, 121);
+    border-color: rgb(39, 204, 121);
+    margin: 2px;
+}
+
+#navbar-modal-social-4{
+    display: inline;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color:rgb(39, 204, 121);
+    border-color: rgb(39, 204, 121);
+    margin: 2px;
+}
+/**************** navbar-modal ****************/
+
+/**************** hamburger-menu ****************/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 0 20px 20px 0;
+    border-color: rgba(255, 68, 0, 0.198);
+    border-style: solid;
+    border-width: 0px 2px 0px 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    backdrop-filter: blur(5px);
+  }
+
+#side-nav-logo-img{
+    width: 88px;
+}
+/**************** hamburger-menu ****************/
 
 /*************** H's Right-Align ****************/
 h1{
@@ -331,3 +444,8 @@ h6{
     text-align: right;
 }
 /*************** H's Right-Align ****************/
+
+
+  
+
+ 
