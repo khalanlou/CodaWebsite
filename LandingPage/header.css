@@ -46,7 +46,7 @@
 
 /**************** Header1 ****************/
 #header{
-    
+    transition: 0.5s;
 }
 
 #header-right{
@@ -261,18 +261,6 @@
     border-radius: 50px;
 }
 
-.button{
-    background-color: orangered;
-    border-width: 0;
-}
-
-.button:hover{
-    background-color: rgb(221, 59, 0);
-    border-width: 1;
-    border-color: white;
-    transition: 0.5s ease-in-out;
-}
-
 #navbar-left-sign-button-h6{
     font-size: 11px;
     font-family: Yekan-B;
@@ -292,6 +280,18 @@
 #navbar-left-hamburger-img{
     width: 25px;
     float: left;
+}
+
+.button{
+    background-color: orangered;
+    border-width: 0;
+}
+
+.button:hover{
+    background-color: rgb(221, 59, 0);
+    border-width: 1;
+    border-color: white;
+    transition: 0.5s ease-in-out;
 }
 /**************** navbar ****************/
 
