@@ -285,6 +285,7 @@
 .button{
     background-color: orangered;
     border-width: 0;
+    transition: 0.2s ease-in-out;
 }
 
 .button:hover{
@@ -401,6 +402,46 @@
 /**************** navbar-modal ****************/
 
 /**************** hamburger-menu ****************/
+#side-nav-1-social{
+    margin-top: 60px;
+}
+
+.social-icon{
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    opacity: 60%;
+    border-width: 0;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.8s ease;
+}
+
+.social-icon:hover{
+    opacity: 90%;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+
+.nav-item{
+    width: 120px;
+    height: 60px;
+    background-color: rgba(255, 68, 0, 0.226);
+    border-width: 1px;
+    border-color: orangered;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    color: black;
+    
+}
+
+.nav-item:hover{
+    background-color: orangered;
+    transition: 0.3s ease;
+    color: white;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
