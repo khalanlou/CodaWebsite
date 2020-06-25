@@ -111,9 +111,6 @@
     width: 49px;
     height: 49px;
     border-radius: 50px;
-    border-color: orangered;
-    border-width: 1px;
-    background-color: orangered;
     background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
@@ -262,8 +259,18 @@
     width: 110px;
     height: 38px;
     border-radius: 50px;
+}
+
+.button{
     background-color: orangered;
-    border-color: orangered;
+    border-width: 0;
+}
+
+.button:hover{
+    background-color: rgb(221, 59, 0);
+    border-width: 1;
+    border-color: white;
+    transition: 0.5s ease-in-out;
 }
 
 #navbar-left-sign-button-h6{
@@ -337,9 +344,6 @@
     width: 43px;
     height: 43px;
     border-radius: 50px;
-    border-color: orangered;
-    border-width: 1px;
-    background-color: orangered;
     background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
