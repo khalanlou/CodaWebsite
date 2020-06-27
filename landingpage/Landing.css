@@ -272,60 +272,18 @@ a{
 
 /* Our Differences */
 
-#OurDifference{
-    margin-top: 120px;
-
-}
-
-#OurDifference_Item_3_Caption{
-    text-align: center;
-    margin-top: 10px;
-}
 
 #OurDifference_Item_3_Caption_Title_H1{
     text-align: center;
 }
 
-/*#OurDifference_Item_3_Caption_Number_H1{
-    text-align: center;
-    color: orangered;
-    font-size: 150px;
-    margin-top: -40px;
-    margin-right: -65px;
-}*/
-
-#OurDifference_Item_2_Caption{
-    text-align: center;
-    margin-top: 10px;
-}
 
 #OurDifference_Item_2_Caption_Title_H1{
     text-align: center;
 }
 
-#OurDifference_Item_2_Caption_Number_H1{
-    text-align: center;
-    color: orangered;
-    font-size: 150px;
-    margin-top: -40px;
-    margin-right: -65px;
-}
-
-#OurDifference_Item_1_Caption{
-    text-align: center;
-    margin-top: 10px;
-}
-
 #OurDifference_Item_1_Caption_Title_H1{
     text-align: center;
-}
-
-#OurDifference_Item_1_Caption_Number_H1{
-    text-align: center;
-    color: orangered;
-    font-size: 150px;
-    margin-top: -40px;
-    margin-right: -65px;
 }
 
 #OurDifference_Title_H1{
@@ -334,15 +292,21 @@ a{
     margin-bottom: 30px;
 }
 
-#OurDifference_Title2{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#OurDifference_Title2_H1{
-    text-align: center;
-}
-
+.animation{
+    position: relative;
+    animation: mymove 4s linear 1s alternate ;
+  }
+  
+  #div1 {animation-timing-function: linear;}
+  #div2 {animation-timing-function: ease;}
+  #div3 {animation-timing-function: ease-in;}
+  #div4 {animation-timing-function: ease-out;}
+  #div5 {animation-timing-function: ease-in-out;}
+  
+  @keyframes mymove {
+    from {left: 500px;}
+    to {left: 0px;}
+  }
 
 
 /* Blog */
