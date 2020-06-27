@@ -85,7 +85,7 @@
 }
 
 #header-left-title{
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 #header-left-title-h3{
@@ -118,6 +118,13 @@
     margin: 6px -55px 0 0;
 }
 
+#header-left-sign-button2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
 #header-left-caption{
     margin-top: 10px;
 }
@@ -125,6 +132,32 @@
 #header-left-caption-h4{
     font-size: 13px;
     color: orangered;
+}
+
+#header-left-sign-button2{
+    background-image: url('Dependencies/Images/Header/play.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 60%;
+}
+
+.button-header{
+    border-color: rgb(235, 63, 1);
+    border-width: 2px;
+    color: rgb(235, 63, 1);
+    background-color: rgba(255, 68, 0, 0.054);
+    width: 230px; height: 60px;
+    border-radius: 50px;
+    margin: 5px;
+    transition: 0.3s ease-in;
+    font-size: 16px;
+}
+
+.button-header:hover{
+    background-color: orangered;
+    border-color: white;
+    color: white;
+    transition: 0.3s ease-in;
 }
 /**************** Header1 ****************/
 
@@ -177,6 +210,18 @@
     background-position: center; 
     background-size: 35%;
     margin: 6px -55px 0 0;
+}
+
+
+#header-left-sign-button2_{
+    background-image: url('Dependencies/Images/Header/play.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 65%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 5px;
 }
 
 #header-left-caption_{
@@ -302,20 +347,43 @@
 }
 
 #navbar-modal-close{
-    margin-top: 10px;
-    margin-bottom: auto;
+    margin-bottom: -5px;
 }
 
 #navbar-modal-content{
-    width: 430px;
+    width: 410px;
+    height: 420px;
+    border-radius: 25px;
+    margin-top: 60px;
+}
+
+#navbar-modal-content-success{
+    width: 410px;
     height: 290px;
     border-radius: 25px;
-    margin-top: 170px;
+    margin-top: 100px;
+}
+
+#navbar-modal-content-wrong{
+    width: 410px;
+    height: 290px;
+    border-radius: 25px;
+    margin-top: 100px;
 }
 
 #navbar-modal-title{
     margin-bottom: 30px;
-    margin-top: -5px;
+    
+}
+
+#navbar-modal-title-success{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#navbar-modal-title-wrong{
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 #navbar-modal-title-h3{
@@ -336,8 +404,8 @@
     
 }
 
-#navbar-modal-form-input{
-    width: 310px;
+#navbar-modal-form-input1{
+    width: 290px;
     height: 50px;
     border-radius: 50px;
     border-width: 1px;
@@ -345,20 +413,40 @@
     background-color: rgba(255, 167, 136, 0.137);
 }
 
+#navbar-modal-form-input2{
+    width: 290px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: orangered;
+    background-color: rgba(255, 167, 136, 0.137);
+    margin-top: 10px;
+}
+
+#navbar-modal-form-input3{
+    width: 290px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: orangered;
+    background-color: rgba(255, 167, 136, 0.137);
+    margin-top: 10px;
+}
+
 #navbar-modal-form-button{
     display: inline;
-    width: 43px;
-    height: 43px;
+    width: 44px;
+    height: 44px;
     border-radius: 50px;
     background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 35%;
-    margin: 4px -47px 0 0;
+    margin: 13px -47px 0 0;
 }
 
 #navbar-modal-social{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #navbar-modal-social-1{
@@ -405,6 +493,17 @@
     margin: 2px;
 }
 /**************** navbar-modal ****************/
+
+/**************** navbar-modal-video ****************/
+#navbar-modal-video{
+    backdrop-filter: blur(4px);
+    margin-top: 80px;
+}
+
+#navbar-modal-content-video{
+    margin-top: 60px;
+}
+/**************** navbar-modal-video ****************/
 
 /**************** hamburger-menu ****************/
 #side-nav-close{

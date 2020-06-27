@@ -46,14 +46,14 @@
                                 </a>
                             </div>
                             <div id="navbar-right-blog" class="col-xl-2 col-lg-2 d-none d-lg-block justify-content-center align-self-end">
-                                <a href="../BlogPage/Blog.htm" style="text-decoration: none; color: white;">    
+                                <a href="../blogpage/blog.htm" style="text-decoration: none; color: white;">    
                                     <h6 id="navbar-right-blog-h6" class="text" type="button">
                                         بلاگ
                                     </h6>
                                 </a>
                             </div>
                             <div id="navbar-right-contact" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 d-none d-md-block justify-content-center align-self-end">
-                                <a href="../ContactPage/Contact.htm" style="text-decoration: none; color: white;">
+                                <a href="../contactpage/contact.htm" style="text-decoration: none; color: white;">
                                     <h6 id="navbar-right-contact-h6" type="button">
                                         ارتباط
                                     </h6>
@@ -65,14 +65,14 @@
                     <div id="navbar-left" class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 col-2 col-auto mr-auto"> 
                         <div id="nevbar-left-row" class="row d-flex justify-content-center">
                             <div id="navbar-left-cost" class="col-xl-2 col-lg-2 d-none d-lg-block justify-content-center align-self-end">
-                                    <a href="../CostsPage/Costs.htm" style="text-decoration: none; color: black;">
+                                    <a href="../costspage/costs.htm" style="text-decoration: none; color: black;">
                                         <h6 id="navbar-left-cost-h6" type="button">
                                             تعرفه
                                         </h6>
                                     </a>
                             </div>
                             <div id="navbar-left-portfolio" class="col-xl-2 col-lg-2 col-md-3 d-none d-md-block justify-content-center align-self-end">
-                                <a href="../PortfolioPage/Portfolio.htm" style="text-decoration: none; color: black;">
+                                <a href="../portfoliopage/portfolio.htm" style="text-decoration: none; color: black;">
                                     <h6 id="navbar-left-portfolio-h6" type="button">
                                         پورتفولیو
                                     </h6>
@@ -96,6 +96,7 @@
                 <!--modal-->
                 <div id="navbar-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                     <div class="modal-dialog d-flex justify-content-center" role="document">
+                        <!--modal-base-->
                         <div id="navbar-modal-content" class="modal-content">
                             <button id="navbar-modal-close" type="button" class="btn close col-2" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
@@ -107,8 +108,9 @@
                             </div>
                             <div id="navbar-modal-sign" class="row d-flex justify-content-center">
                                 <form id="navbar-modal-form" class="row d-flex justify-content-center">                                                 
-                                    <input id="navbar-modal-form-input" type="text" placeholder=" نام و نام خانوادگی " class="form-control" required>
-                                    <input id="navbar-modal-form-input" type="number" placeholder="شماره تماس" class="form-control" required>
+                                    <input id="navbar-modal-form-input1" type="text" placeholder=" نام و نام خانوادگی " class="form-control" required>
+                                    <input id="navbar-modal-form-input2" type="number" placeholder="شماره تماس" class="form-control" required>
+                                    <input id="navbar-modal-form-input3" type="email" placeholder="پست الکترونیکی" class="form-control" required>
                                     <input id="navbar-modal-form-button" type="submit" class="btn btn-secondary btn-light button" value="">
                                 </form>
                             </div>
@@ -124,9 +126,82 @@
                                 <button id="navbar-modal-social-4" class="btn"></button>
                             </div>
                         </div>
+                        <!--modal-base-->
+
+                        <!--modal-success-->
+                        <div id="navbar-modal-content-success" class="modal-content d-none">
+                            <button id="navbar-modal-close" type="button" class="btn close col-2" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div id="navbar-modal-title-success" class="row d-flex justify-content-center">
+                                <h3 id="navbar-modal-title-h3" class="row d-flex justify-content-center">
+                                    <center>
+                                        هورا! <br> اطلاعات رو با موفقیت <br> ارسال کردیم.
+                                    </center>
+                                </h3>
+                            </div>
+                            <div id="navbar-modal-social" class="row d-flex justify-content-center">
+                                <button id="navbar-modal-social-1" class="btn"></button>
+                                <button id="navbar-modal-social-2" class="btn"></button>
+                                <button id="navbar-modal-social-3" class="btn"></button>
+                                <button id="navbar-modal-social-4" class="btn"></button>
+                            </div>
+                        </div>
+                        <!--modal-success-->
+
+                        <!--modal-wrong-->
+                        <div id="navbar-modal-content-wrong" class="modal-content d-none">
+                            <button id="navbar-modal-close" type="button" class="btn close col-2" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div id="navbar-modal-title-wrong" class="row d-flex justify-content-center">
+                                <h3 id="navbar-modal-title-h3" class="row d-flex justify-content-center">
+                                    <center>
+                                        اوپس :( <br> متاسفانه مشکلی <br> پیش اومد.
+                                    </center>
+                                </h3>
+                            </div>
+                            <div id="navbar-modal-social" class="row d-flex justify-content-center">
+                                <button id="navbar-modal-social-1" class="btn"></button>
+                                <button id="navbar-modal-social-2" class="btn"></button>
+                                <button id="navbar-modal-social-3" class="btn"></button>
+                                <button id="navbar-modal-social-4" class="btn"></button>
+                            </div>
+                        </div>
+                        <!--modal-wrong-->
                     </div>
                 </div>
                 <!--modal-->
+
+                <!--modal-video-large-->
+                <div id="navbar-modal-video" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog d-flex justify-content-center" role="document">
+                        <div id="navbar-modal-video-content" class="modal-content">
+                            <style>
+                                .h_iframe-aparat_embed_frame{
+                                    position:relative;
+                                    }
+                                .h_iframe-aparat_embed_frame.ratio{
+                                    display:block;
+                                    width:100%;
+                                    height:auto;
+                                    }
+                                .h_iframe-aparat_embed_frame iframe{
+                                    position:absolute;
+                                    width:130%;
+                                    height:130%;
+                                    border-radius: 30px;
+                                    border-width: 0;
+                                    }
+                            </style>
+                            <div class="h_iframe-aparat_embed_frame d-flex justify-content-center">
+                                <span style="display: block; padding-top: 57%"></span>
+                                <iframe src="https://www.aparat.com/video/video/embed/videohash/W9BNr/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--modal-video-large-->
 
                 <!--for desktop version-->
                 <div id="header-right" class="col-xl-6 col-lg-7 d-none d-lg-block">
@@ -148,17 +223,23 @@
                             شروع همکاری
                         </h3>
                     </div>
-                    <div id="header-left-sign" class="row d-flex justify-content-center">
+                    <!--<div id="header-left-sign" class="row d-flex justify-content-center">
                         <form id="header-left-sign-form" class="row">                                                 
                             <input id="header-left-sign-form-input" type="number" placeholder="شماره تماس" class="form-control" required>
                             <input id="header-left-sign-form-button" type="submit" class="btn btn-secondary btn-light button" value="">
                         </form>
+                    </div>-->
+                    <div id="header-left-sign" class="row d-flex justify-content-center">
+                        <a href="../costspage/costs.htm" style="text-decoration: none; color: black;">
+                            <button id="header-left-sign-button1" type="button" value="" class="btn btn-danger button-header">سفارش پروژه جدید</button>
+                        </a>
+                        <button id="header-left-sign-button2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#navbar-modal-video" style="width: 60px; height: 60px; border-radius: 50px; margin: 5px;"></button>
                     </div>
-                    <div id="header-left-caption" class="row d-flex justify-content-center">
+                    <!--<div id="header-left-caption" class="row d-flex justify-content-center">
                         <h4 id="header-left-caption-h4">
                             لازم نیست کار دیگه ای بکنی. ما باهات تماس می گیریم.
                         </h4>
-                    </div>
+                    </div>-->
                 </div>
                 <!--for desktop version--> 
 
@@ -169,17 +250,23 @@
                             <center>وقتشه ایده هاتو<br> عملی کنی!</center>
                         </h1>
                     </div>
-                    <div id="header-left-sign_" class="row d-flex justify-content-center">
+                    <!--<div id="header-left-sign_" class="row d-flex justify-content-center">
                         <form id="header-left-sign-form_" class="row">                                                 
                             <input id="header-left-sign-form-input_" type="number" placeholder="شماره تماس" class="form-control" required>
                             <input id="header-left-sign-form-button_" type="submit" class="btn btn-secondary btn-light" value="">
                         </form>
+                    </div>-->
+                    <div id="header-left-sign_" class="row d-flex justify-content-center">
+                        <a href="../CostsPage/Costs.htm" style="text-decoration: none; color: black;">
+                            <button id="header-left-sign-button1_" type="button" value="" class="btn btn-danger button-header">سفارش پروژه جدید</button>
+                        </a>
+                        <button id="header-left-sign-button2" type="button" value="" class="btn btn-primary" data-toggle="modal" data-target="#navbar-modal-video2"></button>
                     </div>
-                    <div id="header-left-caption_" class="row d-flex justify-content-center">
+                    <!--<div id="header-left-caption_" class="row d-flex justify-content-center">
                         <h4 id="header-left-caption-h4_">
                             لازم نیست کار دیگه ای بکنی. ما باهات تماس می گیریم.
                         </h4>
-                    </div>
+                    </div>-->
                 </div>
                 <!--for tablet and mobile version--> 
             </div>
