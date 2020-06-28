@@ -588,6 +588,14 @@ h6{
 /*************** H's Right-Align ****************/
 
 /* differences */
+#differences{
+    margin-top: 50px;
+}
+
+#differences-title{
+    margin-top: 28px;
+}
+
 #differences-title-h1{
     font-size: 50px;    
     text-align: center;
