@@ -589,7 +589,7 @@ h6{
 
 /* differences */
 #differences{
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 #differences-title{
@@ -632,10 +632,42 @@ h6{
 #differences-item3-svg{
     margin-bottom: 10px;
 }
+/* differences */
 
+/* blog */
+#blog{
+    background-image: url('/landingpage/Dependencies/Images/Posts/BottomBack.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 150%;
+    margin-top: 7%;
+}
 
+#slider{
+    width: 80%;
+    border-radius: 30px;
+    overflow: hidden;
+}
 
+.title-pos {
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    font-size: 50px;
+}
 
-  
+.caption-pos {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    line-height: 33px;
+}
 
- 
+.button-pos{
+    position: absolute;
+    top: 65%;
+    right: 20%;
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+}
