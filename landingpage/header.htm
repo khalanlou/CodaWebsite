@@ -5,7 +5,8 @@
     <head>
         <!--Css-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">        
-        <link rel="stylesheet" href="header.css">        
+        <link rel="stylesheet" href="header.css"> 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">        
         <!--Css-->
 
         <!--JavaScript-->
@@ -14,6 +15,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="header.js"></script> 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!--JavaScript-->
 
         <meta charset="utf-8">
@@ -277,7 +279,7 @@
             <!--hamburger menu-->
 
             <!--differences-->
-            <div id="differences" class="row justify-content-center">
+            <div data-aos="zoom-in" id="differences" class="row justify-content-center">
                 <div id="differences-title" class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                     <h1 id="differences-title-h1" class="col-12 d-flex justify-content-center align-self-center">
                         تفاوت ما <br> با بقیه؟
@@ -476,5 +478,8 @@
         </div>
 
     </body>
+    <script>
+        AOS.init();
+    </script>
 
 </html>

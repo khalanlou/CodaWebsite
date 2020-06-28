@@ -292,22 +292,6 @@ a{
     margin-bottom: 30px;
 }
 
-.animation{
-    position: relative;
-    animation: mymove 4s linear 1s alternate ;
-  }
-  
-  #div1 {animation-timing-function: linear;}
-  #div2 {animation-timing-function: ease;}
-  #div3 {animation-timing-function: ease-in;}
-  #div4 {animation-timing-function: ease-out;}
-  #div5 {animation-timing-function: ease-in-out;}
-  
-  @keyframes mymove {
-    from {left: 500px;}
-    to {left: 0px;}
-  }
-
 
 /* Blog */
 
