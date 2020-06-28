@@ -636,14 +636,10 @@ h6{
 
 /* blog */
 #blog{
-    background-image: url('/landingpage/Dependencies/Images/Posts/BottomBack.png');
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: 150%;
     margin-top: 7%;
 }
 
-#slider{
+#blog-slider{
     width: 80%;
     border-radius: 30px;
     overflow: hidden;
@@ -671,3 +667,42 @@ h6{
     height: 45px;
     border-radius: 30px;
 }
+/* blog */
+
+/* team */
+#team{
+    margin-top: 100px;
+}
+
+#team-title{
+    margin-bottom: 80px;
+}
+#team-slider-social{
+    padding: 0 5px 0 5px;
+}
+#team-slider{
+   
+}
+
+#team-slider-item-user{
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+#team-slider-item-caption{
+    background-image: url('Dependencies/Images/Teams/Qut.png');
+    background-repeat: no-repeat; 
+    background-position: left; 
+    background-size: 120%;
+    padding: 70px 0 70px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.button-social{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 0 5px 10px 5px;
+}
+/* team */
