@@ -707,3 +707,21 @@ h6{
     margin: 0 5px 10px 5px;
 }
 /* team */
+
+/* footer */
+#footer-back{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    border-width: 3px 3px 3px 0;
+    margin-top: 50px;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    width: 500px;
+}
+
+#footer-caption{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+/* footer */
