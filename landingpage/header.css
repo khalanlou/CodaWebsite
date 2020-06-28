@@ -167,7 +167,6 @@
     background-repeat: no-repeat;
     background-size: 550px;
     height: 600px;
-    margin-bottom: -350px;
     background-position: center;
     z-index: 0;
 }
@@ -357,33 +356,9 @@
     margin-top: 60px;
 }
 
-#navbar-modal-content-success{
-    width: 410px;
-    height: 290px;
-    border-radius: 25px;
-    margin-top: 100px;
-}
-
-#navbar-modal-content-wrong{
-    width: 410px;
-    height: 290px;
-    border-radius: 25px;
-    margin-top: 100px;
-}
-
 #navbar-modal-title{
     margin-bottom: 30px;
     
-}
-
-#navbar-modal-title-success{
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-#navbar-modal-title-wrong{
-    margin-bottom: 30px;
-    margin-top: 20px;
 }
 
 #navbar-modal-title-h3{
@@ -612,7 +587,87 @@ h6{
 }
 /*************** H's Right-Align ****************/
 
+/* differences */
+#differences{
+    margin-top: 5%;
+}
 
-  
+#differences-title{
+    margin-top: 28px;
+}
 
- 
+#differences-title-h1{
+    font-size: 50px;    
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#differences-item1-h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#differences-item2-h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#differences-item3-h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#differences-item1-svg{
+    margin-bottom: 10px;
+}
+
+#differences-item2-svg{
+    margin-bottom: 10px;
+}
+
+#differences-item3-svg{
+    margin-bottom: 10px;
+}
+/* differences */
+
+/* blog */
+#blog{
+    background-image: url('/landingpage/Dependencies/Images/Posts/BottomBack.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 150%;
+    margin-top: 7%;
+}
+
+#slider{
+    width: 80%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.title-pos {
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    font-size: 50px;
+}
+
+.caption-pos {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    line-height: 33px;
+}
+
+.button-pos{
+    position: absolute;
+    top: 65%;
+    right: 20%;
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+}

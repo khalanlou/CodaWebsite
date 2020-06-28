@@ -26,3 +26,4 @@ function showPage() {
   document.getElementById("main").style.opacity = "100%";
 }
 /**************** page-loader ****************/
+
