@@ -601,7 +601,16 @@ h6{
     text-align: center;
     margin-bottom: 60px;
 }
+#differences-item1{
+    transition-delay: 200ms;
+}
 
+#differences-item2{
+    transition-delay: 400ms;
+}
+#differences-item3{
+    transition-delay: 600ms;
+}
 #differences-item1-h3{
     font-size: 30px;
     text-align: center;
