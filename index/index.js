@@ -26,3 +26,4 @@ document.getElementById("Main").style.display = "block";
 document.getElementById("main").style.opacity = "100%";
 }
 /**************** page-loader ****************/
+
