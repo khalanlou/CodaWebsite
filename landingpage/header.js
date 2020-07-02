@@ -27,10 +27,5 @@ function showPage() {
 }
 /**************** page-loader ****************/
 
-$('[data-toggle="tooltip"]').tooltip({
-  delay: {
-      show: 10000,
-      hide: 0
-  }
-});
+
  
