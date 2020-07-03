@@ -34,10 +34,8 @@ $('[data-toggle="tooltip"]').tooltip({
   }
 });
  
-<<<<<<< HEAD
 
 /***********form*************/
-=======
 /**************** navbar-scroll ****************/
 window.onscroll = function() {scrollFunction()};
 
@@ -50,4 +48,3 @@ function scrollFunction() {
   }
 }
 /**************** navbar-scroll ****************/
->>>>>>> 7a8228feccdfcd912e5f5bbdf9c9267756ddebc3

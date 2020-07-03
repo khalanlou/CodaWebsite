@@ -470,8 +470,10 @@ h6{
 }
 /*************** H's Right-Align ****************/
 
-<<<<<<< HEAD
 /*************** form ****************/
+#h3{
+    text-align: center;
+}
 #div-form{
     margin-top: 3em;
 }
@@ -494,10 +496,10 @@ h6{
     margin-right: 15px;
 }
 #icon-1{
-    color: orangered;
+    color: lightskyblue;
 }
 #icon-2{
-    color: orangered;
+    color: lightblue;
 }
 #h5-azizi{
     text-align: center;
@@ -600,7 +602,6 @@ textarea[title=comment]:focus{
 
 
 
-=======
 /* team */
 #team{
     background-color: rgba(0, 128, 0, 0.02);
@@ -698,4 +699,3 @@ textarea[title=comment]:focus{
     100% { transform: translateY(15px); opacity: 0;}
   }
   /* scroll icon*/
->>>>>>> 7a8228feccdfcd912e5f5bbdf9c9267756ddebc3
