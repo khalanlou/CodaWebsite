@@ -27,5 +27,27 @@ function showPage() {
 }
 /**************** page-loader ****************/
 
+<<<<<<< HEAD
 
+=======
+$('[data-toggle="tooltip"]').tooltip({
+  delay: {
+      show: 10000,
+      hide: 0
+  }
+});
+
+/**************** navbar-scroll ****************/
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("navbar-scroll").style.top = "0";
+  }
+  else {
+    document.getElementById("navbar-scroll").style.top = "-80px";
+  }
+}
+/**************** navbar-scroll ****************/
+>>>>>>> 514ba1e26d156407e98fe8b3e67b5a55fad2cfa8
  
