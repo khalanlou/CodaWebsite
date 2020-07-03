@@ -34,5 +34,20 @@ $('[data-toggle="tooltip"]').tooltip({
   }
 });
  
+<<<<<<< HEAD
 
 /***********form*************/
+=======
+/**************** navbar-scroll ****************/
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+    document.getElementById("navbar-scroll").style.top = "0";
+  }
+  else {
+    document.getElementById("navbar-scroll").style.top = "-80px";
+  }
+}
+/**************** navbar-scroll ****************/
+>>>>>>> 7a8228feccdfcd912e5f5bbdf9c9267756ddebc3
