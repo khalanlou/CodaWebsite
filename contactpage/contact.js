@@ -34,3 +34,5 @@ $('[data-toggle="tooltip"]').tooltip({
   }
 });
  
+
+/***********form*************/
