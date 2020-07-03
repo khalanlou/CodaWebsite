@@ -33,4 +33,17 @@ $('[data-toggle="tooltip"]').tooltip({
       hide: 0
   }
 });
+
+/**************** navbar-scroll ****************/
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("navbar-scroll").style.top = "0";
+  }
+  else {
+    document.getElementById("navbar-scroll").style.top = "-80px";
+  }
+}
+/**************** navbar-scroll ****************/
  
