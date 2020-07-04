@@ -471,7 +471,7 @@ h6{
 /*************** H's Right-Align ****************/
 
 /*************** form ****************/
-#h3{
+#h3-title{
     text-align: center;
 }
 #div-form{
@@ -480,32 +480,8 @@ h6{
 #form{
     text-align: start;
 }
-#btn{
-    border-radius: 20px;
-    width: 7em;
-}
 #contact{
     margin-top: 4em;
-}
-#div-ahmadi{
-    padding-bottom: 1em;
-    padding-top: 1em;
-}
-#h5-ahmadi{
-    text-align: center;
-    margin-right: 15px;
-}
-#icon-1{
-    color: lightskyblue;
-}
-#icon-2{
-    color: lightblue;
-}
-#h5-azizi{
-    text-align: center;
-}
-#h6-contact{
-    text-align: center; margin-top: 1em;
 }
 #label-name{
     margin-right: 1em;
@@ -527,23 +503,13 @@ h6{
     margin-bottom: 1em;
 }
 
-
-
-
-
-
-
-
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid green;
     outline: none;
     animation: none;
-    border-radius: 25px;
-    background-color: #d6ffd3;
   }
   input[type=text]:focus {
     border: none;
@@ -557,11 +523,8 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid green;
     outline: none;
     animation: none;
-    border-radius: 25px; 
-    background-color: #d6ffd3;
   }
   input[type=number]:focus {
     border: none;
@@ -574,9 +537,7 @@ input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid green;
-    border-radius: 25px; 
+    box-sizing: border-box; 
   }
   input[type=email]:focus {
     border-radius: 25px;
@@ -585,11 +546,6 @@ input[type=text] {
     border: none;
   }
 
-
-
-textarea[title=comment]{
-border: 1px solid green;
-}
 textarea[title=comment]:focus{
     border-radius: 25px;
     outline: none;
@@ -598,6 +554,24 @@ textarea[title=comment]:focus{
 }
 
 /*************** form ****************/
+
+.input-height{
+    height: 50px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #00E25A;
+    background-color: #00e25a11;
+}
+
+.button-contact{
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #00E25A;
+    color: white;
+    border-width: 0;
+}
+
 
 
 
