@@ -27,9 +27,6 @@ function showPage() {
 }
 /**************** page-loader ****************/
 
-<<<<<<< HEAD
-
-=======
 $('[data-toggle="tooltip"]').tooltip({
   delay: {
       show: 10000,
@@ -49,5 +46,4 @@ function scrollFunction() {
   }
 }
 /**************** navbar-scroll ****************/
->>>>>>> 514ba1e26d156407e98fe8b3e67b5a55fad2cfa8
  
