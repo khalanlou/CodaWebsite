@@ -486,6 +486,8 @@ h6{
 /*************** form ****************/
 #h3-title{
     text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
 #div-form{
     margin-top: 3em;
@@ -629,6 +631,12 @@ textarea[title=comment]:focus{
     height: 35px;
     border-radius: 25px;
     margin: 0 5px 10px 5px;
+}
+.icon-social{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin: -7px -13px 5px 5px;
 }
 /* team */
 
