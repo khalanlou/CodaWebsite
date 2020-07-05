@@ -472,6 +472,8 @@ h6{
 /*************** form ****************/
 #h3-title{
     text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
 #div-form{
     margin-top: 3em;
