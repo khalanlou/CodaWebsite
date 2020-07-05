@@ -122,7 +122,6 @@ html{
     top: -70px;
     background-color: rgba(46, 46, 46, 0.835);
     border-radius: 0 0 10px 10px;
-    margin-right: 50px;
     backdrop-filter: blur(4px);
 }
 
