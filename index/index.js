@@ -27,3 +27,22 @@ document.getElementById("main").style.opacity = "100%";
 }
 /**************** page-loader ****************/
 
+$('[data-toggle="tooltip"]').tooltip({
+delay: {
+    show: 10000,
+    hide: 0
+}
+});
+
+/**************** navbar-scroll ****************/
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  document.getElementById("navbar-scroll").style.top = "0";
+}
+else {
+  document.getElementById("navbar-scroll").style.top = "-80px";
+}
+}
+/**************** navbar-scroll ****************/
