@@ -183,6 +183,7 @@ html{
 
 #navbar-left-sign{
     text-align: center;
+    z-index: 2;
 }
 
 #navbar-left-sign-button{
@@ -243,7 +244,7 @@ html{
 
 #navbar-modal-content{
     width: 410px;
-    height: 420px;
+    height: 450px;
     border-radius: 25px;
     margin-top: 60px;
 }
@@ -358,6 +359,19 @@ html{
     background-color:rgb(39, 204, 121);
     border-color: rgb(39, 204, 121);
     margin: 2px;
+}
+
+.button1{
+    background-color: orangered;
+    border-width: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.button1:hover{
+    background-color: rgb(221, 59, 0);
+    border-width: 1;
+    border-color: white;
+    transition: 0.5s ease-in-out;
 }
 /**************** navbar-modal ****************/
 
