@@ -720,6 +720,10 @@ h6{
     font-size: 35px;
 }
 
+#team-slider-iteam-social{
+    z-index: 2;
+}
+
 .button-social{
     width: 35px;
     height: 35px;

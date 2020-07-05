@@ -748,7 +748,7 @@ h6{
 /* social-bar */
 #social-bar{
     width: 45px;
-    height: 200px;
+    height: 205px;
     border-radius: 0 15px 15px 0;
     z-index: 2;
     background-color: rgba(46, 46, 46, 0.157);
@@ -762,5 +762,19 @@ h6{
 #social-bar:hover{
     margin-left: 0;
     transition: ease-in-out 0.2s;
-    background-color: royalblue;
+    background-color: rgb(238, 242, 255);
+}
+
+.social-bar-icon{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin: 10px 0 5px 4px;
+    opacity: 50%;
+    transition: ease-in-out 0.3s;
+}
+
+.social-bar-icon:hover{
+    opacity: 100%;
+    transition: ease-in-out 0.3s;
 }
