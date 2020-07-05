@@ -116,7 +116,7 @@ html{
 }
 
 #navbar-scroll{
-    height: 70px;
+    height: 75px;
     z-index: 1;
     transition: ease-in-out 0.3s;
     top: -70px;
