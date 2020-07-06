@@ -30,7 +30,7 @@ html{
 
 #main{
     font-family: Yekan-N;
-    background-image: url('static/index/Dependencies/Images/Back/back.png');
+    background-image: url('Dependencies/Images/Back/back.png');
     background-repeat: no-repeat;
     background-size: 100%;
     transition: opacity .5s;
@@ -49,7 +49,7 @@ html{
 
 /**************** Header ****************/
 #header{
-    background-image: url('static/index/Dependencies/Images/Header/contact-header.png');
+    background-image: url('Dependencies/Images/Header/contact-header.png');
     background-repeat: no-repeat;
     background-size: 1366px;
     margin-top: -75px;
@@ -306,7 +306,7 @@ html{
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    background-image: url('static/index/Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 35%;
@@ -626,7 +626,7 @@ textarea[title=comment]:focus{
 }
 
 #team-slider-item-caption{
-    background-image: url('static/index/Dependencies/Images/Teams/Qut.png');
+    background-image: url('Dependencies/Images/Teams/Qut.png');
     background-repeat: no-repeat; 
     background-position: left; 
     background-size: 120%;
