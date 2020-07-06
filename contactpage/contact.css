@@ -617,6 +617,10 @@ textarea[title=comment]:focus{
     margin-bottom: 20px;
 }
 
+#team-slider-iteam-social{
+    z-index: 2;
+}
+
 #team-slider-item-caption{
     background-image: url('Dependencies/Images/Teams/Qut.png');
     background-repeat: no-repeat; 

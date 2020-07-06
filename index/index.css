@@ -27,7 +27,7 @@
 
 #main{
     font-family: Yekan-N;
-    background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
+    background-image: url('static/index/Dependencies/Images/Back/Landing\ -\ 768.png');
     background-repeat: no-repeat;
     background-size: 100%;
     transition: opacity .5s;
@@ -50,7 +50,7 @@
 }
 
 #header-right{
-    background-image: url('Dependencies/Images/Header/RightHeader.png');
+    background-image: url('static/index/Dependencies/Images/Header/index-header.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 650px;
@@ -111,7 +111,7 @@
     width: 49px;
     height: 49px;
     border-radius: 50px;
-    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-image: url('static/index/Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 35%;
@@ -135,7 +135,7 @@
 }
 
 #header-left-sign-button2{
-    background-image: url('Dependencies/Images/Header/play.png');
+    background-image: url('static/index/Dependencies/Images/Header/play.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 60%;
@@ -163,7 +163,7 @@
 
 /**************** Header2 ****************/
 #header-right_{
-    background-image: url('Dependencies/Images/Header/mobile.png');
+    background-image: url('static/index/Dependencies/Images/Header/header-mobile.png');
     background-repeat: no-repeat;
     background-size: 550px;
     height: 600px;
@@ -204,7 +204,7 @@
     border-color: black;
     border-width: 1px;
     background-color: black;
-    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-image: url('static/index/Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 35%;
@@ -213,7 +213,7 @@
 
 
 #header-left-sign-button2_{
-    background-image: url('Dependencies/Images/Header/play.png');
+    background-image: url('static/index/Dependencies/Images/Header/play.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 65%;
@@ -424,7 +424,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50px;
-    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
+    background-image: url('static/index/Dependencies/Images/Navbar/Button/ButtonIcon.png');
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: 35%;
@@ -711,7 +711,7 @@ h6{
 }
 
 #team-slider-item-caption{
-    background-image: url('Dependencies/Images/Teams/Qut.png');
+    background-image: url('static/index/Dependencies/Images/Teams/Qut.png');
     background-repeat: no-repeat; 
     background-position: left; 
     background-size: 120%;
@@ -720,11 +720,22 @@ h6{
     font-size: 35px;
 }
 
+#team-slider-iteam-social{
+    z-index: 2;
+}
+
 .button-social{
     width: 35px;
     height: 35px;
     border-radius: 25px;
     margin: 0 5px 10px 5px;
+}
+
+.icon-social{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin: -7px -13px 5px 5px;
 }
 /* team */
 
