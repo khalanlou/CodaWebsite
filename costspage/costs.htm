@@ -315,6 +315,48 @@
                 </div>
             </div>
             <!--intro-->
+            <!--cost calculate-->
+            <div dir="rtl" id="div-calculate" class="col-12 justify-content-center">
+                <h1 id="h1title-costonline" class="row justify-content-center">محاسبه آنلاین هزینه</h1> 
+                <div id="typenumber-site" class="row justify-content-center">
+                    <div class="row justify-content-center col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12" id="type-site">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <h4 id="h4title-type" >نوع سایت</h4> 
+                        </div>
+                        <input id="company" class="" type="button" value="شرکتی">
+                        <input id="stores" class="" type="button" value="فروشگاهی">
+                        <input id="special" class="" type="button" value="اختصاصی">
+                    </div>
+                    <div class="row justify-content-center col-xl-5 col-lg-7 col-md-6 col-sm-12 col-xs-12" id="number-damane">
+                        <div class="col-xl-4 col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                            <h4 id="h4title-number">تعداد دامنه</h4>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                                <select name="gender" class="ui dropdown" id="select">
+                                        <option value="">Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                </select>
+                                  
+                        </div>
+                        
+                    </div>
+                </div> 
+                <div id="slider" class="row justify-content-center">
+
+                </div>
+                <div id="accessories" class="row justify-content-center">
+
+                </div>
+                <div id="cost" class="row justify-content-center">
+
+                </div>
+            </div>
+
+
+
+
+            <!--cost calaulate-->
 
             <!--footer-->
             <div id="footer" class="row d-flex justify-content-center">
@@ -332,6 +374,9 @@
     </body>
     <script>
         AOS.init();
+        $('#select')
+  .dropdown()
+;
     </script>
 
 </html>

@@ -482,7 +482,97 @@ h6{
     text-align: right;
 }
 /*************** H's Right-Align ****************/
+/*************** cost calaculate ****************/
+#div-calculate{
+    margin-top: 2em;
+    background-color: lavender;
+}
+#h1title-costonline{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 2em;
+}
+#typenumber-site{
+    margin-top: 2em;
+}
 
+#div-typesite{
+    z-index: 0;
+}
+#type-site{
+
+}
+#h4title-type{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+input[id=company] {
+    width: 140px;
+    height: 40px;
+    margin: 0px 0px 0px -30px;
+    background-color: orangered;
+    border: orangered;
+    color: whitesmoke;
+    z-index: 2;
+    border-radius: 20px;
+  }
+  input[id=company]:focus {
+    border: orangered;
+    z-index: 3;
+    background-color: orangered;
+  }
+
+
+  input[id=stores] {
+    width: 140px;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+    border: black;
+    color: whitesmoke;
+    z-index: 1;
+    border-radius: 20px;
+  }
+  input[id=stores]:focus {
+    border: black;
+    z-index: 3;
+  }
+
+
+  input[id=special] {
+    width: 140px;
+    height: 40px;
+    margin: 0px -30px 0px 0px;
+    background-color: #00E25A;
+    border: #00E25A;
+    color: whitesmoke;
+    z-index: 0;
+    border-radius: 20px;
+  }
+  input[id=special]:focus {
+    border: #00E25A;
+    z-index: 3;
+  }
+  #h4title-number{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  #sellecnumber{
+      border-radius: 20px;
+  }
+
+
+  
+
+
+
+/*cost calaculate*/
 /* footer */
 #footer-back{
     background-color: rgb(14, 14, 14);

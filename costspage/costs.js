@@ -46,3 +46,6 @@ function scrollFunction() {
   }
 }
 /**************** navbar-scroll ****************/
+$('#select')
+  .dropdown()
+;
