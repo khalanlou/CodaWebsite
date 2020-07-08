@@ -117,7 +117,7 @@ html{
 
 #navbar-scroll{
     height: 75px;
-    z-index: 1;
+    z-index: 2;
     transition: ease-in-out 0.3s;
     top: -70px;
     background-color: rgba(46, 46, 46, 0.835);
@@ -127,6 +127,7 @@ html{
 
 #navbar-right{
     color: white;
+    z-index: 1;
 }
 
 #navbar-right-row{
@@ -439,7 +440,7 @@ html{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     left: 0;
     border-radius: 0 20px 20px 0;
@@ -617,7 +618,7 @@ textarea[title=comment]:focus{
 }
 
 #team-slider-iteam-social{
-    z-index: 2;
+    z-index: 1;
 }
 
 #team-slider-item-caption{
