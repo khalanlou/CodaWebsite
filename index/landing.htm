@@ -38,16 +38,16 @@
 
         <!--social-bar-->
         <div id="social-bar" class="position-fixed">
-            <a href="instagram.com/hicoda.ir">
+            <a href="www.instagram.com/hicoda.ir">
                 <img id="social-bar-1" class="social-bar-icon" src="static/index/Dependencies/Images/social/instagram.png">
             </a>
-            <a href="telegram.com/hicoda.ir">
+            <a href="www.telegram.com/hicoda.ir">
                 <img id="social-bar-2" class="social-bar-icon" src="static/index/Dependencies/Images/social/telegram.png">
             </a>
-            <a href="bale.com/hicoda.ir">
+            <a href="www.bale.com/hicoda.ir">
                 <img id="social-bar-3" class="social-bar-icon" src="static/index/Dependencies/Images/social/bale.png">
             </a>
-            <a href="hithub.com/hicoda.ir">
+            <a href="www.hithub.com/hicoda.ir">
                 <img id="social-bar-4" class="social-bar-icon" src="static/index/Dependencies/Images/social/github.png">
             </a>
         </div>
@@ -71,7 +71,7 @@
                             </a>
                         </div>
                         <div id="navbar-right-contact" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 d-none d-md-block justify-content-center align-self-end">
-                            <a href="static/index/contact.htm" style="text-decoration: none; color: white;">
+                            <a href="{% url 'contact_us' %}" style="text-decoration: none; color: white;">
                                 <h6 id="navbar-right-contact-h6" type="button">
                                     ارتباط
                                 </h6>
@@ -398,39 +398,18 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div id="blog-slider-post" class="carousel-inner">
-                      <div id="slider-post-1" class="carousel-item active" >
-                        <img id="slider-post-1-img" class="d-block w-100" src="https://vistapointe.net/images/background-1.jpg" alt="First slide">
-                        <h2 class="title-pos d-none d-md-block">
-                            درود!
-                        </h2>
-                        <h5 id="slider-post-1-h5" class="caption-pos d-none d-lg-block">
-                            از امروز میتوانید بهترین آموزش های جهان را از اینجا مشاهده کنید. <br>
-                            برای اطلاعات بیشتر و شرکت در آموزش روی دکمه کلیک کنید.
-                        </h5>
-                        <button id="slider-post-1-button" class="btn btn-light button-pos d-none d-md-block">بیشتر بخون</button>
-                      </div>
-                      <div id="slider-post-2" class="carousel-item">
-                        <img id="slider-post-1-img" class="d-block w-100" src="https://vistapointe.net/images/background-1.jpg" alt="Secound slide">
-                        <h2 class="title-pos d-none d-md-block">
-                            درود!
-                        </h2>
-                        <h5 id="slider-post-1-h5" class="caption-pos d-none d-lg-block">
-                            از امروز میتوانید بهترین آموزش های جهان را از اینجا مشاهده کنید. <br>
-                            برای اطلاعات بیشتر و شرکت در آموزش روی دکمه کلیک کنید.
-                        </h5>
-                        <button id="slider-post-1-button" class="btn btn-light button-pos d-none d-md-block">بیشتر بخون</button>
-                      </div>
-                      <div id="slider-post-3" class="carousel-item">
-                        <img id="slider-post-1-img" class="d-block w-100" src="https://vistapointe.net/images/background-1.jpg" alt="Third slide">
-                        <h2 class="title-pos d-none d-md-block">
-                            درود!
-                        </h2>
-                        <h5 id="slider-post-1-h5" class="caption-pos d-none d-lg-block">
-                            از امروز میتوانید بهترین آموزش های جهان را از اینجا مشاهده کنید. <br>
-                            برای اطلاعات بیشتر و شرکت در آموزش روی دکمه کلیک کنید.
-                        </h5>
-                        <button id="slider-post-1-button" class="btn btn-light button-pos d-none d-md-block">بیشتر بخون</button>
-                      </div>
+                        {% for post in posts%}
+                            <div id="slider-post-1" class="carousel-item{% if forloop.counter == 1 %} active{% endif %}" >
+                                <img id="slider-post-1-img" class="d-block w-100" src={{post.cover}} alt="First slide">
+                                <h2 class="title-pos d-none d-md-block">
+                                    {{post.title}}
+                                </h2>
+                                <h5 id="slider-post-1-h5" class="caption-pos d-none d-lg-block">
+                                    {{post.content}}
+                                </h5>
+                                <button id="slider-post-1-button" class="btn btn-light button-pos d-none d-md-block">بیشتر بخون</button>
+                            </div>
+                        {% endfor %}
                     </div>
                     <a class="carousel-control-prev" href="#blog-slider" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -449,90 +428,52 @@
                 <h1 id="team-title" class="col-12 d-flex justify-content-center align-self-center">تیم ما</h1>
                 <div id="team-slider" class="col-10 justify-content-center carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="row">
-                            <div class="row col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-self-center">
-                                <div id="team-slider-iteam-social" class="row col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 d-none d-lg-block justify-content-center align-self-center">
-                                    <button id="team-slider-iteam-social-1" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/telegram2.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-2" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/Teams/Logo/Instagram-logo.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-3" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/git4.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-4" class="btn btn-warning button-social"></button>
-                                </div>
-                                <div class="row col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-self-center">
-                                    <img id="team-slider-item-user" class="justify-content-center" src="static/index/Dependencies/Images/Teams/User.png">
-                                    <h2 class="col-12 justify-content-center" class="justify-content-center" style="text-align: center;">
-                                        محمدامین عزیزی
-                                    </h2>
-                                    <h5 class="col-12 justify-content-center" style="text-align: center;">
-                                        توسعه دهنده رابط کاربری
-                                    </h5>
-                                </div>
-                                <div id="team-slider-iteam-social" class="row col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 d-lg-none justify-content-center align-self-center">
-                                    <button id="team-slider-iteam-social-1" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/telegram2.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-2" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/Teams/Logo/Instagram-logo.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-3" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/git4.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-4" class="btn btn-warning button-social"></button>
-                                </div>
-                            </div>
-                            <h1 id="team-slider-item-caption" class="col-xl-7 col-lg-7 d-none d-lg-block justify-content-center align-self-center">
-                                تو به آرزوهات یه رسیدن بدهکاری!
-                            </h1>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row">
-                            <div class="row col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-self-center">
-                                <div id="team-slider-iteam-social" class="row col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 d-none d-lg-block justify-content-center align-self-center">
-                                    <button id="team-slider-iteam-social-1" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/telegram2.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-2" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/Teams/Logo/Instagram-logo.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-3" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/git4.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-4" class="btn btn-warning button-social"></button>
-                                </div>
-                                <div class="row col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-self-center">
-                                    <img id="team-slider-item-user" class="justify-content-center" src="static/index/Dependencies/Images/Teams/User.png">
-                                    <h2 class="col-12 justify-content-center" class="justify-content-center" style="text-align: center;">
-                                        محمدامین عزیزی
-                                    </h2>
-                                    <h5 class="col-12 justify-content-center" style="text-align: center;">
-                                        توسعه دهنده رابط کاربری
-                                    </h5>
-                                </div>
-                                <div id="team-slider-iteam-social" class="row col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 d-lg-none justify-content-center align-self-center">
-                                    <button id="team-slider-iteam-social-1" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/telegram2.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-2" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/Teams/Logo/Instagram-logo.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-3" class="btn btn-warning button-social">
-                                        <img class="icon-social" src="static/index/Dependencies/Images/social/git4.png">
-                                    </button>
-                                    <button id="team-slider-iteam-social-4" class="btn btn-warning button-social"></button>
+                        <!--carousel-block-->
+                        {% for user in users %}
+                            <div class="carousel-item{% if forloop.counter == 1 %} active{% endif %}">
+                                <div class="row">
+                                    <div class="row col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-self-center">
+                                        <div id="team-slider-iteam-social" class="row col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 d-none d-lg-block justify-content-center align-self-center">
+                                            <button id="team-slider-iteam-social-1" class="btn btn-warning button-social">
+                                                <img class="icon-social" src="static/index/Dependencies/Images/social/telegram2.png">
+                                            </button>
+                                            <button id="team-slider-iteam-social-2" class="btn btn-warning button-social">
+                                                <img class="icon-social" src="static/index/Dependencies/Images/Teams/Logo/Instagram-logo.png">
+                                            </button>
+                                            <button id="team-slider-iteam-social-3" class="btn btn-warning button-social">
+                                                <img class="icon-social" src="static/index/Dependencies/Images/social/git4.png">
+                                            </button>
+                                            <button id="team-slider-iteam-social-4" class="btn btn-warning button-social"></button>
+                                        </div>
+                                        <div class="row col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-self-center">
+                                            <img id="team-slider-item-user" class="justify-content-center" src="static/index/Dependencies/Images/Teams/User.png">
+                                            <h2 class="col-12 justify-content-center" class="justify-content-center" style="text-align: center;">
+                                                {{ user.name }}
+                                            </h2>
+                                            <h5 class="col-12 justify-content-center" style="text-align: center;">
+                                                {{user.description}}
+                                            </h5>
+                                        </div>
+                                        <div id="team-slider-iteam-social" class="row col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 d-lg-none justify-content-center align-self-center">
+                                            <button id="team-slider-iteam-social-1" class="btn btn-warning button-social">
+                                                <img class="icon-social" src="static/index/Dependencies/Images/social/telegram2.png">
+                                            </button>
+                                            <button id="team-slider-iteam-social-2" class="btn btn-warning button-social">
+                                                <img class="icon-social" src="static/index/Dependencies/Images/Teams/Logo/Instagram-logo.png">
+                                            </button>
+                                            <button id="team-slider-iteam-social-3" class="btn btn-warning button-social">
+                                                <img class="icon-social" src="static/index/Dependencies/Images/social/git4.png">
+                                            </button>
+                                            <button id="team-slider-iteam-social-4" class="btn btn-warning button-social"></button>
+                                        </div>
+                                    </div>
+                                    <h1 id="team-slider-item-caption" class="col-xl-7 col-lg-7 d-none d-lg-block justify-content-center align-self-center">
+                                        {{user.theory}}
+                                    </h1>
                                 </div>
                             </div>
-                            <h1 id="team-slider-item-caption" class="col-xl-7 col-lg-7 d-none d-lg-block justify-content-center align-self-center">
-                                مهم ترین چیزی که در کودا دنبالشیم خلق یک تجربه جدید و بی نظیره...
-                            </h1>
-                        </div>
-                      </div>
+                        {% endfor %}
+                        <!--carousel-block-->
                     </div>
                     <a class="carousel-control-prev" href="#team-slider" role="button" data-slide="prev" style="width: 20px; height: 20px; margin-top: 130px; z-index: auto;">
                         <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: orangered; border-radius: 10px; margin-left: -50px; width: 20px; height: 20px;"></span>
