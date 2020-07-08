@@ -47,6 +47,7 @@ function scrollFunction() {
 }
 /**************** navbar-scroll ****************/
  
+/**************** fix-width ****************/
 function resize() {
   if ( $(window).width() > 1370) {     
     $("#main").addClass('container');
@@ -60,3 +61,4 @@ function resize() {
 }
 $(window).on("resize", resize);
 resize();
+/**************** fix-width ****************/
