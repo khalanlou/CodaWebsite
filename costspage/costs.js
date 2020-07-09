@@ -46,6 +46,5 @@ function scrollFunction() {
   }
 }
 /**************** navbar-scroll ****************/
-$('#select')
-  .dropdown()
-;
+
+/*************** css range slider **************/

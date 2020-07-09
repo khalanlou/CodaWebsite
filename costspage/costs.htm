@@ -323,28 +323,28 @@
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <h4 id="h4title-type" >نوع سایت</h4> 
                         </div>
-                        <input id="company" class="" type="button" value="شرکتی">
-                        <input id="stores" class="" type="button" value="فروشگاهی">
-                        <input id="special" class="" type="button" value="اختصاصی">
+                        <input id="company" class="btn btn-outline-light" type="button" value="شرکتی">
+                        <input id="stores" class="btn btn-outline-light" type="button" value="فروشگاهی">
+                        <input id="special" class="btn btn-outline-light" type="button" value="اختصاصی">
                     </div>
                     <div class="row justify-content-center col-xl-5 col-lg-7 col-md-6 col-sm-12 col-xs-12" id="number-damane">
                         <div class="col-xl-4 col-lg-7 col-md-6 col-sm-12 col-xs-12">
                             <h4 id="h4title-number">تعداد دامنه</h4>
                         </div>
-                        <div class="col-xl-3 col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                                <select name="gender" class="ui dropdown" id="select">
-                                        <option value="">Gender</option>
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
-                                </select>
-                                  
+                        <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                            <section class="container">
+                                <form style="margin-top: -15px;" class="form-horizontal">
+                                    <select class="form-control">
+                                        <option><h1>یک</h1></option>
+                                        <option><h1>دو</h1></option>
+                                        <option><h1>سه</h1></option>
+                                    </select>
+                                </form>
+                            </section>  
                         </div>
-                        
                     </div>
                 </div> 
-                <div id="slider" class="row justify-content-center">
-
-                </div>
+                <input class="slider" type="range" min="0" max="10">
                 <div id="accessories" class="row justify-content-center">
 
                 </div>
@@ -374,9 +374,18 @@
     </body>
     <script>
         AOS.init();
-        $('#select')
-  .dropdown()
-;
+        const _R = document.querySelector('[type=range]');
+    _R.style.setProperty('--val', +_R.value);
+    _R.style.setProperty('--max', +_R.max);
+    _R.style.setProperty('--min', +_R.min);
+
+    document.documentElement.classList.add('js');
+
+    _R.addEventListener('input', e => {
+        _R.style.setProperty('--val', +_R.value);
+    }, false);
+});        
+
     </script>
 
 </html>
