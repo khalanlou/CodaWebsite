@@ -64,3 +64,41 @@ else
 $(window).on("resize", resize);
 resize();
 /**************** fix-width ****************/
+
+
+
+function acardeon1() {
+  document.getElementById("acardeon-tabs-main").style.backgroundColor = "rgba(46, 139, 86, 0.274)";
+  document.getElementById("acardeon-tabs-main").style.borderColor = "seagreen";
+  document.getElementById("acardeon-buttons-1").style.zIndex = 2;
+  document.getElementById("acardeon-buttons-2").style.zIndex = 1;
+  document.getElementById("acardeon-buttons-3").style.zIndex = 0;
+  document.getElementById("acardeon-tabs-main").style.zIndex = 2;
+  $("#text3").addClass('d-none');
+  $("#text2").addClass('d-none');
+  $("#text1").removeClass('d-none');
+}
+
+function acardeon2() {
+  document.getElementById("acardeon-tabs-main").style.backgroundColor = "rgba(255, 99, 71, 0.28)";
+  document.getElementById("acardeon-tabs-main").style.borderColor = "tomato";
+  document.getElementById("acardeon-buttons-1").style.zIndex = 1;
+  document.getElementById("acardeon-buttons-2").style.zIndex = 2;
+  document.getElementById("acardeon-buttons-3").style.zIndex = 1;
+  document.getElementById("acardeon-tabs-main").style.zIndex = 2;
+  $("#text3").addClass('d-none');
+  $("#text1").addClass('d-none');
+  $("#text2").removeClass('d-none');
+}
+
+function acardeon3() {
+  document.getElementById("acardeon-tabs-main").style.backgroundColor = "rgba(255, 179, 0, 0.274)";
+  document.getElementById("acardeon-tabs-main").style.borderColor = "rgb(255, 179, 0)";
+  document.getElementById("acardeon-buttons-1").style.zIndex = 0;
+  document.getElementById("acardeon-buttons-2").style.zIndex = 1;
+  document.getElementById("acardeon-buttons-3").style.zIndex = 2;
+  document.getElementById("acardeon-tabs-main").style.zIndex = 2;
+  $("#text2").addClass('d-none');
+  $("#text1").addClass('d-none');
+  $("#text3").removeClass('d-none');
+}
