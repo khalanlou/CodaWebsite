@@ -616,6 +616,13 @@ h6{
     border-radius: 20px 15px 0 0;
 }
 
+.button-acardeon1{
+    width: 85px;
+    height: 55px;
+    border-radius: 20px 15px 0 0;
+}
+
+
 .acardeon-font{
     text-align: center;
     font-size: 16px;
