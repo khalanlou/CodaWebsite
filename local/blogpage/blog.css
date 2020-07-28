@@ -18,18 +18,22 @@
 }
 /* Font-face configuration */
 
+html{
+    scroll-behavior: smooth;
+}
+
 /****************** Main ******************/
 #Main{
-    transition: background-color 0.5s;
-    transition: margin-left 0.5s;
+    transition: background-color .5s;
+    transition: margin-left .5s;
 }
 
 #main{
     font-family: Yekan-N;
-    background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
+    background-image: url('Dependencies/Images/Back/Back.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    transition: opacity 0.5s;
+    transition: opacity .5s;
     opacity: 0;
 }
 
@@ -42,216 +46,27 @@
 }
 /****************** Main ******************/
 
-
-/**************** Header1 ****************/
-#header{
-    transition: 0.3s;
-    z-index: 0;
-}
-
-#header-right{
-    background-image: url('Dependencies/Images/Header/RightHeader.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 650px;
-    margin-top: -70px;
-    z-index: auto;
-}
-
-#header-right-title{
-    margin-top: 170px;
-    margin-right: -120px;
-}
-
-#header-right-title-h1{
-    font-size: 48px;
-    line-height: 55px;
-    color: white;
-}
-
-#header-right-caption{
-    margin-top: 15px;
-    margin-right: -90px;
-}
-
-#header-right-caption-h2{
-    font-size: 27px;
-    line-height: 40px;
-    color: white;
-}
-
-#header-left{
-    margin-top: -70px;
-}
-
-#header-left-title{
-    margin-bottom: 13px;
-}
-
-#header-left-title-h3{
-    font-size: 60px;
-    color: orangered;
-}
-
-#header-left-sign{
-    
-}
-
-#header-left-sign-form-input{
-    width: 310px;
-    height: 60px;
-    border-radius: 50px;
-    border-width: 1px;
-    border-color: orangered;
-    background-color: rgb(255, 237, 231);
-}
-
-#header-left-sign-form-button{
-    display: inline;
-    width: 49px;
-    height: 49px;
-    border-radius: 50px;
-    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: 35%;
-    margin: 6px -55px 0 0;
-}
-
-#header-left-sign-button2{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    margin: 5px;
-}
-
-#header-left-caption{
-    margin-top: 10px;
-}
-
-#header-left-caption-h4{
-    font-size: 13px;
-    color: orangered;
-}
-
-#header-left-sign-button2{
-    background-image: url('Dependencies/Images/Header/play.png');
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: 60%;
-}
-
-.button-header{
-    border-color: rgb(235, 63, 1);
-    border-width: 2px;
-    color: rgb(235, 63, 1);
-    background-color: rgba(255, 68, 0, 0.054);
-    width: 230px; height: 60px;
-    border-radius: 50px;
-    margin: 5px;
-    transition: 0.3s ease-in;
-    font-size: 16px;
-}
-
-.button-header:hover{
-    background-color: orangered;
-    border-color: white;
-    color: white;
-    transition: 0.3s ease-in;
-}
-/**************** Header1 ****************/
-
-/**************** Header2 ****************/
-#header-right_{
-    background-image: url('Dependencies/Images/Header/mobile.png');
-    background-repeat: no-repeat;
-    background-size: 550px;
-    height: 600px;
-    background-position: center;
-    z-index: 0;
-}
-
-
-#header-right-title_{
-    margin-top: 200px;
-    margin-bottom: 20px;
-}
-
-#header-right-title-h1_{
-    font-size: 48px;
-    line-height: 55px;
-    color: orangered;
-}
-
-#header-left-sign_{
-    
-}
-
-#header-left-sign-form-input_{
-    width: 310px;
-    height: 60px;
-    border-radius: 50px;
-    border-width: 1px;
-    border-color: black;
-    background-color: rgba(0, 0, 0, 0.082);
-}
-
-#header-left-sign-form-button_{
-    display: inline;
-    width: 49px;
-    height: 49px;
-    border-radius: 50px;
-    border-color: black;
-    border-width: 1px;
-    background-color: black;
-    background-image: url('Dependencies/Images/Navbar/Button/ButtonIcon.png');
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: 35%;
-    margin: 6px -55px 0 0;
-}
-
-
-#header-left-sign-button2_{
-    background-image: url('Dependencies/Images/Header/play.png');
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: 65%;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    margin: 5px;
-}
-
-#header-left-caption_{
-    margin-top: 10px;
-}
-
-#header-left-caption-h4_{
-    font-size: 13px;
-    color: black;
-}
-/**************** Header2 ****************/
-
 /**************** navbar ****************/
 #navbar{
     height: 70px;
-    z-index: 1;
+    transition: ease-in-out 0.3s;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(243, 243, 243);
 }
 
 #navbar-scroll{
-    height: 70px;
+    height: 75px;
     z-index: 2;
-    transition: ease-in-out 0.5s;
-    background-color: rgba(255, 232, 224, 0.945);
-    backdrop-filter: blur(5px);
+    transition: ease-in-out 0.3s;
+    top: -75px;
+    background-color: rgba(46, 46, 46, 0.835);
     border-radius: 0 0 10px 10px;
-    top: -70px;
+    backdrop-filter: blur(4px);
 }
 
 #navbar-right{
-    color: white;
-    z-index: 1;
+    background-color: white;
+    box-shadow: 5px black;
 }
 
 #navbar-right-row{
@@ -283,7 +98,8 @@
 }
 
 #navbar-left{
-
+    background-color: white;
+    box-shadow: 5px black;
 }
 
 #nevbar-left-row{
@@ -311,7 +127,7 @@
 }
 
 #navbar-left-sign-button{
-    width: 110px;
+    width: 120px;
     height: 38px;
     border-radius: 50px;
 }
@@ -320,12 +136,13 @@
     font-size: 11px;
     font-family: Yekan-B;
     float: right;
-    margin: 5px 5px 0 0;
+    margin: 6px 5px 0 0;
+    color: white;
 }
 
 #navbar-left-sign-button-img{
     width: 12px;
-    margin: 3px 4px 0 0;
+    margin: -2px 4px 0 0;
 }
 
 #navbar-left-hamburger{
@@ -344,12 +161,13 @@
 }
 
 .button:hover{
-    background-color: rgb(221, 59, 0);
+    background-color: rgb(226, 60, 0);
     border-width: 1;
     border-color: white;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 /**************** navbar ****************/
+
 
 /**************** navbar-modal ****************/
 #navbar-modal{
@@ -362,7 +180,7 @@
 
 #navbar-modal-content{
     width: 410px;
-    height: 420px;
+    height: 450px;
     border-radius: 25px;
     margin-top: 60px;
 }
@@ -478,18 +296,21 @@
     border-color: rgb(39, 204, 121);
     margin: 2px;
 }
+
+.button1{
+    background-color: orangered;
+    border-width: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.button1:hover{
+    background-color: rgb(221, 59, 0);
+    border-width: 1;
+    border-color: white;
+    transition: 0.5s ease-in-out;
+}
 /**************** navbar-modal ****************/
 
-/**************** navbar-modal-video ****************/
-#navbar-modal-video{
-    backdrop-filter: blur(4px);
-    margin-top: 80px;
-}
-
-#navbar-modal-content-video{
-    margin-top: 60px;
-}
-/**************** navbar-modal-video ****************/
 
 /**************** hamburger-menu ****************/
 #side-nav-close{
@@ -502,8 +323,8 @@
 }
 
 #side-nav-1-caption{
-    margin: 15px 40px 0 20px;
-    line-height: 23px;
+    margin: 5px 55px 0 20px;
+    line-height: 22px;
 }
 
 #side-nav-1-social{
@@ -512,12 +333,6 @@
 
 #side-nav-2{
     margin: 40px 15px 0 15px;
-}
-
-.icon-social{
-    width: 45px;
-    height: 45px;
-    border-radius: 10px;
 }
 
 .social-icon{
@@ -538,11 +353,13 @@
 }
 
 .nav-item{
-    width: 270px;
+    width: 120px;
     height: 60px;
-    background-color: none;
+    background-color: rgba(255, 68, 0, 0.226);
     border-width: 1px;
-    border-color: rgb(245, 245, 245);
+    border-color: orangered;
+    margin: 10px;
+    border-radius: 20px;
     transition: 0.4s ease;
     color: black;
     
@@ -555,22 +372,21 @@
 }
 
 .sidenav {
-    z-index: 3;
     height: 100%;
     width: 0;
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
-    border-radius: 0 0px 0px 0;
-    background-color: white;
+    border-radius: 0 20px 20px 0;
     border-color: rgba(255, 68, 0, 0.198);
     border-style: solid;
     border-width: 0px 2px 0px 0;
     overflow-x: hidden;
-    transition: 0.3s;
+    transition: 0.5s;
     padding-top: 60px;
-    backdrop-filter: blur(10px);
-}
+    backdrop-filter: blur(5px);
+  }
 
 #side-nav-logo-img{
     width: 88px;
@@ -601,148 +417,11 @@ h5{
 h6{
     text-align: right;
 }
+
+p{
+    text-align: right;
+}
 /*************** H's Right-Align ****************/
-
-/* differences */
-#differences{
-    margin-top: 5%;
-}
-
-#differences-title{
-    margin-top: 28px;
-}
-
-#differences-title-h1{
-    font-size: 50px;    
-    text-align: center;
-    margin-bottom: 60px;
-}
-#differences-item1{
-    transition-delay: 200ms;
-}
-
-#differences-item2{
-    transition-delay: 400ms;
-}
-#differences-item3{
-    transition-delay: 600ms;
-}
-#differences-item1-h3{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-
-#differences-item2-h3{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#differences-item3-h3{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#differences-item1-svg{
-    margin-bottom: 10px;
-}
-
-#differences-item2-svg{
-    margin-bottom: 10px;
-}
-
-#differences-item3-svg{
-    margin-bottom: 10px;
-}
-/* differences */
-
-/* blog */
-#blog{
-    margin-top: 7%;
-}
-
-#blog-slider{
-    width: 80%;
-    border-radius: 30px;
-    overflow: hidden;
-}
-
-.title-pos {
-    position: absolute;
-    top: 22%;
-    right: 20%;
-    font-size: 50px;
-}
-
-.caption-pos {
-    position: absolute;
-    top: 35%;
-    right: 20%;
-    line-height: 33px;
-}
-
-.button-pos{
-    position: absolute;
-    top: 65%;
-    right: 20%;
-    width: 130px;
-    height: 45px;
-    border-radius: 30px;
-}
-/* blog */
-
-/* team */
-#team{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-#team-title{
-    margin-bottom: 50px;
-}
-#team-slider-social{
-    padding: 0 5px 0 5px;
-}
-#team-slider{
-   
-}
-
-#team-slider-item-user{
-    width: 220px;
-    margin-bottom: 20px;
-}
-
-#team-slider-item-caption{
-    background-image: url('Dependencies/Images/Teams/Qut.png');
-    background-repeat: no-repeat; 
-    background-position: left; 
-    background-size: 120%;
-    padding: 10% 0 10% 0;
-    text-align: center;
-    font-size: 35px;
-}
-
-#team-slider-iteam-social{
-    z-index: 1;
-}
-
-.button-social{
-    width: 35px;
-    height: 35px;
-    border-radius: 25px;
-    margin: 0 5px 10px 5px;
-}
-
-.icon-social{
-    width: 35px;
-    height: 35px;
-    border-radius: 10px;
-    margin: -7px -13px 5px 5px;
-}
-/* team */
 
 /* footer */
 #footer-back{
@@ -761,7 +440,45 @@ h6{
 }
 /* footer */
 
-/* social-bar */
+/* scroll icon*/
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  /* scroll icon*/
+
+  /* social-bar */
 #social-bar{
     width: 45px;
     height: 205px;
@@ -793,4 +510,51 @@ h6{
 .social-bar-icon:hover{
     opacity: 100%;
     transition: ease-in-out 0.3s;
+}
+  /* social-bar */
+
+.tag-button{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: yellowgreen;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.tag-button:hover{
+    background-color: rgb(244, 255, 221);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(162, 224, 37);
+    transition: 0.2s ease-in-out;
+}
+
+.parag-button{
+    background-color: yellowgreen;
+    border-width: 0;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+.parag-button:hover{
+    width: 90px;
+    background-color: rgb(161, 212, 59);
+    border-width: 0;
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+#search-field{
+    width: 290px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgba(255, 254, 254, 0.842);
+    margin-top: 10px;
 }
