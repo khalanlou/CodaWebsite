@@ -159,7 +159,7 @@ html{
 }
 
 #navbar-left{
-
+    z-index: 1;
 }
 
 #nevbar-left-row{
