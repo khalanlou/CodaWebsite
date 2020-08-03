@@ -30,7 +30,7 @@ html{
 
 #main{
     font-family: Yekan-N;
-    background-image: url('Dependencies/Images/Back/Back.png');
+    background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
     background-repeat: no-repeat;
     background-size: 100%;
     transition: opacity .5s;
@@ -49,7 +49,7 @@ html{
 
 /**************** Header ****************/
 #header{
-    background-image: url('Dependencies/Images/Header/header.png');
+    background-image: url('Dependencies/Images/Header/contact-header.png');
     background-repeat: no-repeat;
     background-size: 1366px;
     margin-top: -75px;
@@ -159,7 +159,7 @@ html{
 }
 
 #navbar-left{
-
+    z-index: 1;
 }
 
 #nevbar-left-row{

@@ -30,7 +30,7 @@ html{
 
 #main{
     font-family: Yekan-N;
-    background-image: url('Dependencies/Images/Back/Back.png');
+    background-image: url('Dependencies/Images/Back/Landing\ -\ 768.png');
     background-repeat: no-repeat;
     background-size: 100%;
     transition: opacity .5s;
@@ -49,7 +49,7 @@ html{
 
 /**************** Header ****************/
 #header{
-    background-image: url('Dependencies/Images/Header/header.png');
+    background-image: url('Dependencies/Images/Header/costs-header.png');
     background-repeat: no-repeat;
     background-size: 1430px;
     margin-top: -75px;
@@ -861,6 +861,13 @@ input[id=company] {
     height: 55px;
     border-radius: 20px 15px 0 0;
 }
+
+.button-acardeon1{
+    width: 85px;
+    height: 55px;
+    border-radius: 20px 15px 0 0;
+}
+
 
 .acardeon-font{
     text-align: center;

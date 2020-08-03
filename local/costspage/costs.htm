@@ -312,21 +312,41 @@
             <!--acardeon-->
             <div id="acardeon" class="row justify-content-center">
                 <div id="acardeon-buttons" class="row col-8 justify-content-start">
-                    <button id="acardeon-buttons-1" onclick="acardeon1()" class="btn button-acardeon">
+                    <!--for large screens-->
+                    <button id="acardeon-buttons-1" onclick="acardeon1()" class="btn button-acardeon d-none d-lg-block">
                         <h5 class="acardeon-font">
                             شخصی یا شرکتی
                         </h5>
                     </button>
-                    <button id="acardeon-buttons-2" onclick="acardeon2()" class="btn button-acardeon">
+                    <button id="acardeon-buttons-2" onclick="acardeon2()" class="btn button-acardeon d-none d-lg-block">
                         <h5 class="acardeon-font">
                             فروشگاهی یا خدماتی
                         </h5>
                     </button>
-                    <button id="acardeon-buttons-3" onclick="acardeon3()" class="btn button-acardeon">
+                    <button id="acardeon-buttons-3" onclick="acardeon3()" class="btn button-acardeon d-none d-lg-block">
                         <h5 class="acardeon-font">
                             اختصاصی
                         </h5>
                     </button>
+                    <!--for large screens-->
+
+                    <!--for small screens-->
+                    <button id="acardeon-buttons-1" onclick="acardeon1()" class="btn button-acardeon1 d-lg-none">
+                        <h5 class="acardeon-font">
+                            شرکتی
+                        </h5>
+                    </button>
+                    <button id="acardeon-buttons-2" onclick="acardeon2()" class="btn button-acardeon1 d-lg-none">
+                        <h5 class="acardeon-font">
+                            خدماتی
+                        </h5>
+                    </button>
+                    <button id="acardeon-buttons-3" onclick="acardeon3()" class="btn button-acardeon1 d-lg-none">
+                        <h5 class="acardeon-font">
+                            اختصاصی
+                        </h5>
+                    </button>
+                    <!--for small screens--> 
                 </div>
                 <div id="acardeon-tabs" class="row col-8 justify-content-center">
                     <div id="acardeon-tabs-main" class="row justify-content-center col-12 tabs-acardeon">
