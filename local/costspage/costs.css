@@ -535,7 +535,6 @@ input[id=company] {
   }
   input[id=company]:focus {
     border: orangered;
-    z-index: 3;
     background-color: orangered;
   }
 
@@ -553,7 +552,6 @@ input[id=company] {
   }
   input[id=stores]:focus {
     border: black;
-    z-index: 3;
   }
 
 
@@ -570,8 +568,8 @@ input[id=company] {
   }
   input[id=special]:focus {
     border: #00E25A;
-    z-index: 3;
   }
+
   #h4title-number{
     text-align: center;
     font-size: 25px;
@@ -671,10 +669,11 @@ input[id=company] {
   /* Hide the browser's default checkbox */
   input[type='checkbox'] {
     position: absolute;
-    opacity: 0;
+    opacity: 100;
     cursor: pointer;
     height: 0;
     width: 0;
+    border: solid orangered;
   }
   
   /* Create a custom checkbox */

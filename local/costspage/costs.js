@@ -50,6 +50,24 @@ else {
 /**************** navbar-scroll ****************/
 
 /*************** css range slider **************/
+function company() {
+  document.getElementById("company").style.zIndex = 2;
+  document.getElementById("stores").style.zIndex = 1;
+  document.getElementById("special").style.zIndex = 0;
+}
+
+function stores() {
+  document.getElementById("company").style.zIndex = 1;
+  document.getElementById("stores").style.zIndex = 2;
+  document.getElementById("special").style.zIndex = 1;
+}
+
+function special() {
+  document.getElementById("company").style.zIndex = 0;
+  document.getElementById("stores").style.zIndex = 1;
+  document.getElementById("special").style.zIndex = 2;
+}
+
 
 
 
