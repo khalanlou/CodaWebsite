@@ -417,24 +417,24 @@
                         <div class="row justify-content-center col-xl-3 col-lg-4">
                             <h4 id="h4title-type" >نوع سایت</h4> 
                         </div>
-                        <div class="row justify-content-center col-xl-7 col-lg-9" id="">
-                            <input id="company" class="btn btn-outline-light" type="button" value="شرکتی">
-                            <input id="stores" class="btn btn-outline-light" type="button" value="فروشگاهی">
-                            <input id="special" class="btn btn-outline-light" type="button" value="اختصاصی">
+                        <div class="row justify-content-center col-xl-8 col-lg-8" id="">
+                            <input id="company" class="btn btn-outline-light" type="button" value="شرکتی" onclick="company()">
+                            <input id="stores" class="btn btn-outline-light" type="button" value="فروشگاهی" onclick="stores()">
+                            <input id="special" class="btn btn-outline-light" type="button" value="اختصاصی" onclick="special()">
                         </div>     
                     </div>
 
                     <div class="row justify-content-center col-xl-4 col-lg-4 col-md-12" id="number-damane">
-                        <div class="row justify-content-center col-xl-7 col-lg-9 col-md-7">
+                        <div class="row justify-content-center col-xl-9 col-lg-10 col-md-7">
                             <h4 id="h4title-number">تعداد دامنه</h4>
                         </div>
-                        <div class="row justify-content-center col-xl-1 offset-xl-4 col-lg-1 offset-lg-1 col-md-5">
+                        <div class="row justify-content-center col-xl-2 offset-xl-1 col-lg-2 col-md-4">
                             <section class="container">
-                                <form style="margin-top: -15px;" class="form-horizontal">
-                                    <select class="form-control">
-                                        <option><h1>یک</h1></option>
-                                        <option><h1>دو</h1></option>
-                                        <option><h1>سه</h1></option>
+                                <form class="form-horizontal">
+                                    <select id="sellecnumber" class="form-control">
+                                        <option><h2>یک</h2></option>
+                                        <option><h2>دو</h2></option>
+                                        <option><h2>سه</h2></option>
                                     </select>
                                 </form>
                             </section>  
@@ -465,21 +465,21 @@
                 
 
                 <div id="accessories" class="row justify-content-center">
-                    <div class="row justify-content-start col-3 offset-1">
+                    <div class="row justify-content-start col-xl-3 offset-xl-1 col-lg-4 col-md-4">
                         <label class="container"><h4 id="title-checkbox"> صفحات اضافه</h4>
                             <input type="checkbox">
                             <span class="checkmark"></span>
                         </label>
                         
                     </div>
-                    <div class="row justify-content-center col-3 offset-1">
+                    <div class="row justify-content-center col-xl-3 offset-xl-1 col-lg-4 col-md-4">
                         <label class="container"><h4 id="title-checkbox"> درگاه پرداخت</h4>
                             <input type="checkbox">
                             <span class="checkmark"></span>
                         </label>
                         
                     </div>
-                    <div class="row justify-content-end col-3 offset-1">
+                    <div class="row justify-content-end col-xl-3 offset-xl-1 col-lg-4 col-md-4">
                         <label class="container"><h4 id="title-checkbox"> اتصال امن</h4>
                             <input type="checkbox">
                             <span class="checkmark"></span>
@@ -523,7 +523,23 @@
         };
         document.getElementById("myinput").oninput();
 
-        
+function company() {
+  document.getElementById("company").style.zIndex = 2;
+  document.getElementById("stores").style.zIndex = 1;
+  document.getElementById("special").style.zIndex = 0;
+}
+
+function stores() {
+  document.getElementById("company").style.zIndex = 1;
+  document.getElementById("stores").style.zIndex = 2;
+  document.getElementById("special").style.zIndex = 1;
+}
+
+function special() {
+  document.getElementById("company").style.zIndex = 0;
+  document.getElementById("stores").style.zIndex = 1;
+  document.getElementById("special").style.zIndex = 2;
+}
     </script>
 
 </html>

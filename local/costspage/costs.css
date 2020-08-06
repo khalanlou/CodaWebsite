@@ -487,8 +487,8 @@ h6{
 #div-calculate{
     margin-top: 2em;
     background-color: lavender;
-    padding-right: 6em;
-    padding-left: 6em;
+    padding-right: 3.67em;
+    padding-left: 3.67em;
 }
 #h1title-costonline{
     text-align: center;
@@ -498,7 +498,6 @@ h6{
 }
 #typenumber-site{
     margin-top: 2em;
-    padding-right: ;
 }
 
 #div-typesite{
@@ -506,24 +505,10 @@ h6{
 }
 #type-site{
     padding-top: 3em;
-    padding-right: ;
 
 }
-#h4title-type{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: ;
-
-}
-#number-damane{
-    padding-top: 3em;
-    padding-left: 2em;
-}
-/**type of site**/
-
 input[id=company] {
-    width: 125px;
+    width: 115px;
     height: 40px;
     margin: 0px 0px 0px -30px;
     background-color: orangered;
@@ -540,7 +525,7 @@ input[id=company] {
 
 
   input[id=stores] {
-    width: 125px;
+    width: 118px;
     height: 40px;
     margin: 0px 0px 0px 0px;
     background-color: black;
@@ -556,7 +541,7 @@ input[id=company] {
 
 
   input[id=special] {
-    width: 125px;
+    width: 115px;
     height: 40px;
     margin: 0px -30px 0px 0px;
     background-color: #00E25A;
@@ -569,6 +554,19 @@ input[id=company] {
   input[id=special]:focus {
     border: #00E25A;
   }
+#h4title-type{
+    text-align: center;
+    font-size: 27.3px;
+    font-weight: bold;
+    margin-left: ;
+
+}
+#number-damane{
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+
 
   #h4title-number{
     text-align: center;
@@ -577,18 +575,20 @@ input[id=company] {
     margin-left: 10px;
   }
   #sellecnumber{
-      border-radius: 20px;
+      border-radius: 25px;
+      background-color: #ccc;
+      text-align: end;
   }
   select.form-control {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
     background-origin: content-box;
-    border-radius: 25px;
-    height: 3em;
-    width: 4em;
-    margin-bottom:;
-    font-size: 20px;
+    text-align: center;
+    width: 70px;
+}
+#textnumber-select{
+    padding-right: 50px;
 }
 
 /**css range slider**/
@@ -599,12 +599,16 @@ input[id=company] {
 #range{
     padding-top: 1em;
 }
+#textrange{
+    padding-left: 70px;
+
+}
 #text-range{
     text-align: center;
-    font-size: 30px;
+    font-size: 27.3px;
     font-weight: bold;
     margin-left: 10px;
-    padding-right: 0;
+
   }
   #text-megabyte{
     text-align: bottom;
@@ -645,11 +649,11 @@ input[id=company] {
     -webkit-appearance: none;
   }
 #accessories{
-    padding-top: 3em;
-    padding-right: 3em;
+    padding-top: 4em;
+    padding-right: 3.2em;
 }
 #title-checkbox{
-    font-size: 30px;
+    font-size: 27.5px;
     font-weight: bold;
 }
 .container {
@@ -695,9 +699,10 @@ input[id=company] {
     border: solid orangered;
   }
   
-  /* When the checkbox is checked, add a blue background */
+  /* When the checkbox is checked, add a background */
   .container input:checked ~ .checkmark {
     background-color: #eee;
+    border: solid orangered;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
