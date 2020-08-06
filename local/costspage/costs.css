@@ -513,76 +513,52 @@ h6{
 
 }
 input[id=company] {
-    width: 140px;
-    height: 55px;
+    width: 115px;
+    height: 40px;
     margin: 0px 0px 0px -30px;
     background-color: orangered;
     border: orangered;
     color: whitesmoke;
     z-index: 2;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 13px;
   }
-
   input[id=company]:focus {
     border: orangered;
     background-color: orangered;
   }
 
-  input[id=company]:hover {
-    border: orangered;
-    color: white;
-    background-color: rgb(236, 63, 0);
-  }
 
   input[id=stores] {
-    width: 140px;
-    height: 55px;
+    width: 118px;
+    height: 40px;
     margin: 0px 0px 0px 0px;
-    background-color: rgb(24, 24, 24);
+    background-color: black;
     border: black;
     color: whitesmoke;
     z-index: 1;
-    border-radius: 50px 0 0 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 13px;
   }
-
   input[id=stores]:focus {
     border: black;
-    border-radius: 50px;
-  }
-
-  input[id=stores]:hover {
-    border: black;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
   }
 
 
   input[id=special] {
-    width: 140px;
-    height: 55px;
+    width: 115px;
+    height: 40px;
     margin: 0px -30px 0px 0px;
     background-color: #00E25A;
     border: #00E25A;
     color: whitesmoke;
     z-index: 0;
-    border-radius: 50px 0 0 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 13px;
   }
   input[id=special]:focus {
     border: #00E25A;
-    border-radius: 50px;
   }
-
-  input[id=special]:hover {
-    border: #00E25A;
-    background-color: #00b649;
-    color: white;
-    border-radius: 50px;
-  }
-
 #h4title-type{
     text-align: center;
     font-size: 27.3px;
@@ -604,8 +580,8 @@ input[id=company] {
     margin-left: 10px;
   }
   #sellecnumber{
-      border-radius: 50px;
-      background-color: #DFDFDF;
+      border-radius: 25px;
+      background-color: #ccc;
       text-align: end;
   }
   select.form-control {
@@ -613,9 +589,8 @@ input[id=company] {
     -webkit-appearance: none;
     appearance: none;
     background-origin: content-box;
-    width: 100px;
-    height: 55px;
-    color: white;
+    text-align: center;
+    width: 70px;
 }
 #textnumber-select{
     padding-right: 50px;
@@ -651,29 +626,31 @@ input[id=company] {
     padding-right: 2em;
   }
   #div-output{
+      padding-right: ;
       
   }
   #output{
     text-align: top;
-    font-size: 60px;
+    font-size: 30px;
+    font-weight: bold;
   }
 #myinput {
     background: linear-gradient(to right, #FF5400 0%, #FF5400 5%, #bbbbbb 5%, #bbbbbb 100%);
     border: none;
     border-radius: 8px;
-    height: 15px;
+    height: 12px;
     width: 40em;
     outline: none;
     transition: background 450ms ease-in;
     -webkit-appearance: none;
   }
   input[type='range']::-webkit-slider-thumb {
-    width: 14px;
+    width: 10px;
     -webkit-appearance: none;
-    height: 35px;
+    height: 28px;
     cursor: pointer;
     border-radius: 10px;
-    background: #313131;
+    background: #434343;
     -webkit-appearance: none;
   }
 #accessories{
