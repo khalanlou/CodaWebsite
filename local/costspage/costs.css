@@ -484,6 +484,12 @@ h6{
 }
 /*************** H's Right-Align ****************/
 /*************** cost calaculate ****************/
+#calculate{
+    background-color: lavender;
+    margin-top: 3em;
+
+
+}
 #div-calculate{
     margin-top: 2em;
     background-color: lavender;
