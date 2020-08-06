@@ -107,3 +107,6 @@ function acardeon3() {
   $("#text1").addClass('d-none');
   $("#text3").removeClass('d-none');
 }
+
+////////
+

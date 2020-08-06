@@ -485,14 +485,13 @@ h6{
 /*************** H's Right-Align ****************/
 /*************** cost calaculate ****************/
 #calculate{
-    background-color: lavender;
+    background-color: #31313109;
     margin-top: 3em;
 
 
 }
 #div-calculate{
     margin-top: 2em;
-    background-color: lavender;
     padding-right: 3.67em;
     padding-left: 3.67em;
 }
@@ -514,52 +513,76 @@ h6{
 
 }
 input[id=company] {
-    width: 115px;
-    height: 40px;
+    width: 140px;
+    height: 55px;
     margin: 0px 0px 0px -30px;
     background-color: orangered;
     border: orangered;
     color: whitesmoke;
     z-index: 2;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 50px;
+    font-size: 16px;
   }
+
   input[id=company]:focus {
     border: orangered;
     background-color: orangered;
   }
 
+  input[id=company]:hover {
+    border: orangered;
+    color: white;
+    background-color: rgb(236, 63, 0);
+  }
 
   input[id=stores] {
-    width: 118px;
-    height: 40px;
+    width: 140px;
+    height: 55px;
     margin: 0px 0px 0px 0px;
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     border: black;
     color: whitesmoke;
     z-index: 1;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 50px 0 0 50px;
+    font-size: 16px;
   }
+
   input[id=stores]:focus {
     border: black;
+    border-radius: 50px;
+  }
+
+  input[id=stores]:hover {
+    border: black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
   }
 
 
   input[id=special] {
-    width: 115px;
-    height: 40px;
+    width: 140px;
+    height: 55px;
     margin: 0px -30px 0px 0px;
     background-color: #00E25A;
     border: #00E25A;
     color: whitesmoke;
     z-index: 0;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 50px 0 0 50px;
+    font-size: 16px;
   }
   input[id=special]:focus {
     border: #00E25A;
+    border-radius: 50px;
   }
+
+  input[id=special]:hover {
+    border: #00E25A;
+    background-color: #00b649;
+    color: white;
+    border-radius: 50px;
+  }
+
 #h4title-type{
     text-align: center;
     font-size: 27.3px;
@@ -581,8 +604,8 @@ input[id=company] {
     margin-left: 10px;
   }
   #sellecnumber{
-      border-radius: 25px;
-      background-color: #ccc;
+      border-radius: 50px;
+      background-color: #DFDFDF;
       text-align: end;
   }
   select.form-control {
@@ -590,8 +613,9 @@ input[id=company] {
     -webkit-appearance: none;
     appearance: none;
     background-origin: content-box;
-    text-align: center;
-    width: 70px;
+    width: 100px;
+    height: 55px;
+    color: white;
 }
 #textnumber-select{
     padding-right: 50px;
@@ -627,31 +651,29 @@ input[id=company] {
     padding-right: 2em;
   }
   #div-output{
-      padding-right: ;
       
   }
   #output{
     text-align: top;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 60px;
   }
 #myinput {
     background: linear-gradient(to right, #FF5400 0%, #FF5400 5%, #bbbbbb 5%, #bbbbbb 100%);
     border: none;
     border-radius: 8px;
-    height: 12px;
+    height: 15px;
     width: 40em;
     outline: none;
     transition: background 450ms ease-in;
     -webkit-appearance: none;
   }
   input[type='range']::-webkit-slider-thumb {
-    width: 10px;
+    width: 14px;
     -webkit-appearance: none;
-    height: 28px;
+    height: 35px;
     cursor: pointer;
     border-radius: 10px;
-    background: #434343;
+    background: #313131;
     -webkit-appearance: none;
   }
 #accessories{
