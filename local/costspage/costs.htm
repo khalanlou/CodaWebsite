@@ -487,16 +487,21 @@
                             </div>
         
                         <div id="cost" class="row justify-content-center">
-                            <button id="out-final" onclick="cost()">
-                                <span>
-                                        <p id="text-out"> قیمت نهایی</p>
-                                        <p id="text-out2">(تقریبی)</p>
-                                        <output id="cost-out"></output>
-
-                                </span>
-                                
-                            </button>
+                            <div>
+                                <div id="btn-out" onclick="cost()" class="button button-1 row">محاسبه</div>
+                            </div>   
                         </div>
+                        <div id="text-out" class="row justify-content-center">
+                            <div class="row justify-content-center col-xl-5 offset-xl-2 col-lg-5 offset-lg-1">
+                                <p id="total-text">مجموع هزینه</p><p id="total-text2">(تقریبی)</p>
+                            </div>                 
+                            <output class="row justify-content-center col-xl-4 col-lg-4 " id="cost-out">2021500
+                            
+                            </output> 
+                              <div id="tooman" class="row justify-content-start col-xl-1 col-lg-2">تومان</div>
+                        </div>
+                        
+                        
                 </div>
             </div>
             

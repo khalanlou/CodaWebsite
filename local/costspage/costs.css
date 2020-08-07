@@ -516,19 +516,20 @@ input[id=company] {
     width: 115px;
     height: 47px;
     margin: 0px 0px 0px -30px;
-    background-color: orangered;
-    border: orangered;
+    background-color: #FF4803;
+    border: #FF4803;
     color: whitesmoke;
     z-index: 2;
     border-radius: 20px;
     font-size: 13px;
   }
   input[id=company]:focus {
-    border: orangered;
-    background-color: orangered;
+    border: #FF4803;
+    background-color: #FF4803;
   }
   input[id=company]:hover{
-      background-color: chocolate;
+      background-color: #FF4803;
+      color: whitesmoke;
   }
 
 
@@ -536,18 +537,19 @@ input[id=company] {
     width: 118px;
     height: 47px;
     margin: 0px 0px 0px 0px;
-    background-color: black;
-    border: black;
+    background-color: #313131;
+    border: #313131;
     color: whitesmoke;
     z-index: 1;
     border-radius: 20px;
     font-size: 13px;
   }
   input[id=stores]:focus {
-    border: black;
+    border: #313131;
   }
   input[id=stores]:hover{
-      background-color:;
+      background-color: #313131;
+      color: whitesmoke;
   }
 
 
@@ -555,18 +557,19 @@ input[id=company] {
     width: 115px;
     height: 47px;
     margin: 0px -30px 0px 0px;
-    background-color: #00E25A;
-    border: #00E25A;
+    background-color: #36E17A;
+    border: #36E17A;
     color: whitesmoke;
     z-index: 0;
     border-radius: 20px;
     font-size: 13px;
   }
   input[id=special]:focus {
-    border: #00E25A;
+    border: #36E17A;
   }
   input[id=special]:hover{
-      background-color: darkgreen;
+      background-color: #36E17A;
+      color: whitesmoke;
   }
 
 
@@ -708,10 +711,7 @@ input[id=company] {
   }
   
   /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-    border: solid orangered;
-  }
+  
   
   /* When the checkbox is checked, add a background */
   .container input:checked ~ .checkmark {
@@ -747,6 +747,66 @@ input[id=company] {
 
 
   /*botton out*/
+  #cost{
+      padding-top: 2em;
+  }
+  #btn-out{
+      font-size: 35px;
+  }
+  .button {
+    width: 250px;
+    height: 70px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button-1 {
+    background-color: transparent;
+    border: 3px solid orangered;
+    border-radius: 28px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: orangered;
+  }
+  .button-1:hover {
+    box-shadow: 0 0 10px 0 orangered, 0 0 20px 2px red;
+    border: 3px solid orangered;
+  }
+  #cost-out{
+      font-size: 65px;
+      padding-left: 0.9em;
+      font-weight: 600;
+      padding-top: 0.1em;
+  }
+  #text-out{
+      padding-left: 1em;
+  }
+  #total-text{
+      font-size: 40px;
+      padding-top: 0.5em;
+      padding-right: 1em;
+      font-weight: 600;
+  }
+  #total-text2{
+    font-weight: 200;
+    padding-top: 1.7em;
+    padding-right: 0.2em;
+
+  }
+  #tooman{
+      padding-top: 2em;
+      padding-right: 1em;
+  }
+  
+  
   
   
 
