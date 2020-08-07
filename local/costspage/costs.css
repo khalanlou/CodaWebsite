@@ -514,7 +514,7 @@ h6{
 }
 input[id=company] {
     width: 115px;
-    height: 40px;
+    height: 47px;
     margin: 0px 0px 0px -30px;
     background-color: orangered;
     border: orangered;
@@ -527,11 +527,14 @@ input[id=company] {
     border: orangered;
     background-color: orangered;
   }
+  input[id=company]:hover{
+      background-color: chocolate;
+  }
 
 
   input[id=stores] {
     width: 118px;
-    height: 40px;
+    height: 47px;
     margin: 0px 0px 0px 0px;
     background-color: black;
     border: black;
@@ -543,11 +546,14 @@ input[id=company] {
   input[id=stores]:focus {
     border: black;
   }
+  input[id=stores]:hover{
+      background-color:;
+  }
 
 
   input[id=special] {
     width: 115px;
-    height: 40px;
+    height: 47px;
     margin: 0px -30px 0px 0px;
     background-color: #00E25A;
     border: #00E25A;
@@ -559,6 +565,11 @@ input[id=company] {
   input[id=special]:focus {
     border: #00E25A;
   }
+  input[id=special]:hover{
+      background-color: darkgreen;
+  }
+
+
 #h4title-type{
     text-align: center;
     font-size: 27.3px;
@@ -682,7 +693,6 @@ input[id=company] {
     cursor: pointer;
     height: 0;
     width: 0;
-    border: solid orangered;
   }
   
   /* Create a custom checkbox */
@@ -693,8 +703,7 @@ input[id=company] {
     height: 25px;
     width: 25px;
     background-color: #eee;
-    border: solid orangered;
-    border: 10px;
+    border: solid orangered 3px;
     border-radius: 15px;
   }
   
