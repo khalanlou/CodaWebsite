@@ -513,62 +513,62 @@ h6{
 
 }
 input[id=company] {
-    width: 115px;
+    width: 120px;
     height: 47px;
     margin: 0px 0px 0px -30px;
     background-color: #FF4803;
     border: #FF4803;
     color: whitesmoke;
     z-index: 2;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 50px;
+    font-size: 15px;
   }
   input[id=company]:focus {
     border: #FF4803;
     background-color: #FF4803;
   }
   input[id=company]:hover{
-      background-color: #FF4803;
+      background-color: #d33800;
       color: whitesmoke;
   }
 
 
   input[id=stores] {
-    width: 118px;
+    width: 120px;
     height: 47px;
     margin: 0px 0px 0px 0px;
     background-color: #313131;
     border: #313131;
     color: whitesmoke;
     z-index: 1;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 50px;
+    font-size: 15px;
   }
   input[id=stores]:focus {
     border: #313131;
   }
   input[id=stores]:hover{
-      background-color: #313131;
+      background-color: #272727;
       color: whitesmoke;
   }
 
 
   input[id=special] {
-    width: 115px;
+    width: 120px;
     height: 47px;
     margin: 0px -30px 0px 0px;
     background-color: #36E17A;
     border: #36E17A;
     color: whitesmoke;
     z-index: 0;
-    border-radius: 20px;
-    font-size: 13px;
+    border-radius: 50px;
+    font-size: 15px;
   }
   input[id=special]:focus {
     border: #36E17A;
   }
   input[id=special]:hover{
-      background-color: #36E17A;
+      background-color: #1eac57;
       color: whitesmoke;
   }
 
@@ -604,7 +604,8 @@ input[id=company] {
     appearance: none;
     background-origin: content-box;
     text-align: center;
-    width: 70px;
+    width: 75px;
+    height: 47px;
 }
 #textnumber-select{
     padding-right: 50px;
@@ -771,7 +772,7 @@ input[id=company] {
   .button-1 {
     background-color: transparent;
     border: 3px solid orangered;
-    border-radius: 28px;
+    border-radius: 50px;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: orangered;
